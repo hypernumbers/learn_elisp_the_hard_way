@@ -17,6 +17,7 @@ Contents:
    rsts/getting-started
    rsts/lesson-0
    rsts/lesson-1
+   rsts/lesson-2
 
 Indices and tables
 ==================

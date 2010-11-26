@@ -86,6 +86,8 @@ What You Have Learned
 
 You have learned how to evaluate a basic eLisp expression (or form) in the scratch buffer. 
 
+**In future lessons you will not be told how to evaluate an expression - be sure to remember the key sequences to do it.**
+
 ----------------
 Extra Activities
 ----------------
@@ -101,5 +103,13 @@ Can you add negative numbers?
 | ``(* 4 5)``
 | ``(/ 1.0 4.0)``
 
-| Evaluate the following expression and try and work out why it returns why it does?
+| Evaluate the following expressions and try and work out why they return what they do?
 | ``(/ 1 4)``
+| ``(/ 1 4.)``
+
+| What do you think these symbols represent?
+| ``#b10101010``
+| ``#o127``
+| ``#x12DE``
+| (Tip try using them in arithmetic expressions)
+
