@@ -1,48 +1,118 @@
-=====================
-Lesson 2 - Data Types
-=====================
+===================================
+Lesson 2 - Primitive Data Types (1)
+===================================
+
+-------
+Context
+-------
 
 The previous lessons looked at performing basic arithmetic operations on various sorts of numbers.
 
-This lessons will look at the other sorts of data types in eLisp.
+This lessons will look at the other sorts of data types in eLisp. There are two different sorts of data types:
 
-The data types that will be discussed here are:
+* primitive data types
+* non-primitive data types
 
-* strings
-* booleans
+The diference between them is that non-primitive data types can be assembled from primitive ones.
+
+The general set of primitive data types of eLisp are:
+
+* integer
+* float
+* character
+* string
+* bool-vector
+* symbol
+* sequence
+* cons
+* array
+* vector
+* char-table
+* hash-table
+* function
+* primitive function (or subr)
+* macro
+* byte-code
+* auto-load
+
+These primitive data types largely correspond to the primitive data types of other Lisps.
+
+In addition eLisp has a number of primitive data types that are peculiar to it, because they pertain to the fact that eLisp is the scripting language of an editor. These primitive data types are:
+
+* buffer
+* marker
+* window
+* frame
+* terminal
+* window configuration
+* frame configuration
+* process
+* stream
+* keymap
+* overlay
+* font
+
+---------------------------
+What This Lesson Will Cover
+---------------------------
+
+This lesson will cover the following data types:
+
+* integer
+* float
+* character
+* string
+* bool-vectr
+
+The integer and float data types have already been introduced in the previous lesson.
 
 --------------------
 What You Should Type
 --------------------
-``(concat "Now is the " "winter of our" " discontent")``
+``(= 1 1)``
 
 -------------------
 What You Should See
 -------------------
-``"Now is the winter of our discontent"``
+| ``(= 1 1)``
+| ``t``
 
 ---------------
 What This Means
 ---------------
 
-``concat`` is a function that concatenate strings
+This function tests for equality. The value ``t`` is a boolean (ie means *true*).
 
 --------------------
 What You Should Type
 --------------------
-| ``(concat "Now is the " "winter of our`` 
-| ``discontent")``
+``(= 1 2)``
 
 -------------------
 What You Should See
 -------------------
-| ``"Now is the winter of our``
-| ``discontent"``
+| ``(= 1 2)``
+| ``nil``
 
 ---------------
 What This Means
 ---------------
 
-The ``concat`` function preserves line endings.
+This is the second boolean (ie it means * false*).
+
+The two values ``t`` and ``nil`` are *constant values* that always evaluate to themselves.
+
+------------------
+Additional Reading
+------------------
+
+There is a section on data types in the `GNU Emacs Lisp Reference Manual`_.
+
+----------------
+Extra Activities
+----------------
+
+List gets its name from LIS(t) P(rocessing) - and yet lists don't appear as a primitive data types. From the additional reading can you work out why?
 
 
+.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Lisp-Data-Types.html#Lisp-Data-Types

@@ -88,6 +88,12 @@ You have learned how to evaluate a basic eLisp expression (or form) in the scrat
 
 **In future lessons you will not be told how to evaluate an expression - be sure to remember the key sequences to do it.**
 
+------------------
+Additional Reading
+------------------
+
+There is a section on data types in the `GNU Emacs Lisp Reference Manual`_.
+
 ----------------
 Extra Activities
 ----------------
@@ -113,3 +119,9 @@ Can you add negative numbers?
 | ``#x12DE``
 | (Tip try using them in arithmetic expressions)
 
+| What do you think these symbols represent?
+| ``1.0e+INF``
+| ``-1.0e+INF``
+| ``0.0e+NaN`` or ``-0.0e+NaN``
+
+.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Numbers.html#Numbers

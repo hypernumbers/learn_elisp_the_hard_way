@@ -14,6 +14,7 @@ Contents:
    rsts/learning-elisp
    rsts/why
    rsts/what
+   rsts/references
    rsts/getting-started
    rsts/lesson-0
    rsts/lesson-1
