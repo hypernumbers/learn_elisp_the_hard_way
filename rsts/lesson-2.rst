@@ -58,49 +58,35 @@ What This Lesson Will Cover
 
 This lesson will cover the following data types:
 
-* integer
-* float
 * character
 * string
 * bool-vectr
 
-The integer and float data types have already been introduced in the previous lesson.
+The integer and float data types have already been introduced in the previous lesson and they will also be used here.
 
---------------------
-What You Should Type
---------------------
-``(= 1 1)``
+--------
+Booleans
+--------
 
--------------------
-What You Should See
--------------------
-| ``(= 1 1)``
-| ``t``
+The boolean data-type represents *true* and *false*. 
 
----------------
-What This Means
----------------
+:You Type: ``(= 1 1)``
+:Result: ``t``
+:This Means: This function tests for equality. The value ``t`` is a boolean (ie means *true*).
 
-This function tests for equality. The value ``t`` is a boolean (ie means *true*).
+This expression (which means *is 1 equal to 1*) is easy to switch to test for false.
 
---------------------
-What You Should Type
---------------------
-``(= 1 2)``
-
--------------------
-What You Should See
--------------------
-| ``(= 1 2)``
-| ``nil``
-
----------------
-What This Means
----------------
-
-This is the second boolean (ie it means * false*).
+:You Type: ``(= 1 2)``
+:Result: ``nil``
+:This Means: The value ``nil`` is the second boolean it means *false*
 
 The two values ``t`` and ``nil`` are *constant values* that always evaluate to themselves.
+
+
+:You Type: 
+:Result: 
+:This Means: 
+
 
 ------------------
 Additional Reading

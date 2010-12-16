@@ -1,6 +1,6 @@
-====================
-Lesson 0 Using Emacs
-====================
+======================
+Lesson 0 - Using Emacs
+======================
 
 --------------
 Learning Emacs
@@ -41,8 +41,5 @@ Emacs uses so-called key modifiers to implement keyboard shortcuts. The two impo
 The most common key modifier on the keyboard is the Shift Key `[Shift]`. Control and Meta/Alt work in the same way. You implement Control-x by pressing `[Ctrl]` first, and then, whilst holding it down, pressing `x` - the same way as you do Shift-x.
 
 Where keyboard commands are required in this book they will be spelled out, but in other publication online (or the Emacs help) they are often written in a contracted form like C-x or M-x
-
-
-
 
 .. _Learning Gnu Emacs: http://oreilly.com/catalog/9781565921528
