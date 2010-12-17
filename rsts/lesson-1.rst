@@ -12,7 +12,8 @@ This lesson will show you how to execute your first eLisp programme.
 Then put the cursor at the **end** of the expression - that is to say after the right bracket and type ``Control-j``
 
 :Result: ``3``
-:This Means: What you typed in consists of an expression ``(+ 1 2)`` and a command to Emacs to execute it ``[Control-j]``. Expressions are sometimes called *forms*.
+
+What you typed in consists of an expression ``(+ 1 2)`` and a command to Emacs to execute it ``[Control-j]``. Expressions are sometimes called *forms*.
 
 eLisp is a dialect of Lisp - which stands for List Processing. A list is any thing between two brackets ``(`` and ``)``
 
@@ -20,22 +21,23 @@ The programme that was executed consisted of an operator ``+`` and two constants
 
 The command ``Control-j`` in Emacs is applied at the point where the cursor is - it evaluates all the eLisp in the window up to that point and prints the output.
 
-Lets look at executing the same expression in a different way. Delete the expression in the \*scrach\* buffer and type in a new one.
+Lets look at executing the same expression in a different way. Delete the expression in the \*scratch\* buffer and type in a new one.
 
 :You Type: ``(+ 1.0 2.0)``
 
 Now put the cursor in the **middle** of the expression - that is to say between the brackets and type ``Control-Alt-x``
 
-:Result: In the window nothing will change. The result of the expression is now put in the *minibuffer* `3.0``
+:Result: In the window nothing will change. The result of the expression is now put in the *minibuffer* ``3.0``
 
-:This Means: The way in which you evaluate the expression determines where the output goes. Alos notice that the previous examples used integers like ``1`` and ``2`` and returned an integer value. This expression uses floating point numbers like ``1.0`` and returns a float as the result.
+The way in which you evaluate the expression determines where the output goes. Alos notice that the previous examples used integers like ``1`` and ``2`` and returned an integer value. This expression uses floating point numbers like ``1.0`` and returns a float as the result.
 
 :You Type: ``(+ 1.0e+3 2.0e-2)``
 
 Now put the cursor at the **end** of the expression and type ``Control-x Control-e``
 
 :Result: In the window nothing will change by the value is now placed in the *minibuffer* ``(+ 1.0e+3 2.0-2)``
-:This Means: You can express floating point numbers is scientific notation
+
+You can express floating point numbers is scientific notation
 
 ---------------------
 What You Have Learned
