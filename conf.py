@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Learn eLisp The Hard Way documentation build configuration file, created by
+# Learn eLisp The Hard Way build configuration file, created by
 # sphinx-quickstart on Sat Nov  6 22:31:37 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -172,7 +172,7 @@ htmlhelp_basename = 'LearneLispTheHardWaydoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'LearneLispTheHardWay.tex', u'Learn eLisp The Hard Way Documentation',
+  ('index', 'LearneLispTheHardWay.tex', u'Learn eLisp The Hard Way',
    u'Gordon Guthrie', 'manual'),
 ]
 
