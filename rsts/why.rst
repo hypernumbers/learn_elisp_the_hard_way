@@ -5,6 +5,7 @@ Why Did I Write This Book?
 ----------
 Why eLisp?
 ----------
+
 I am writing this book to lean eLisp myself. I used Emacs every day because it the IDE of choice for Erlang and I am an Erlang programmer.
 
 My relationship with Emacs is that of Simson Garfinkel, Daniel Weise and Steven Strassmann to `Unix`_ - I genuinely loathe it.
@@ -23,7 +24,7 @@ The *Learn X The Hard Way* format is specifically aimed at writing books for non
 
 I occassionally have to dip into eLisp in the form of .emacs files which are executed on startup and are how you configure Emacs to do specific stuff for your particular requirements.
 
-eLisp still looks like line noise to me and I have been programming since the late 70s in languages as diverse as Fortran, VB, C++, Java, Perl, Python, PHP, Ruby and Erlang.
+One of the reasons why the *Learn X The Hard Way* books work is that the format of forcing people to type in code is a great way to teach them how to read the syntax. eLisp still looks like line noise to me and I have been programming since the late 70s in languages as diverse as Fortran, VB, C++, Java, Perl, Python, PHP, Ruby and Erlang. Writing this book has been a good way to learn how to *read* eLisp for me, and I hope it will work for the readers.
 
 The transition from Fortran to the Obect Orientated paradigm of C++ was enormously painful. The shift from the OO paradigm (Ruby was my language *de jour* then) to functional programming in the form of Erlang was also horrendous.
 

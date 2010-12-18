@@ -76,7 +76,7 @@ Can you add negative numbers?
 | ``#b10101010``
 | ``#o127``
 | ``#x12DE``
-| (Tip try using them in arithmetic expressions)
+| (**Tip**: try using them in arithmetic expressions)
 
 | What do you think these symbols represent?
 | ``1.0e+INF``
