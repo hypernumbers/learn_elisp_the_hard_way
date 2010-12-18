@@ -63,22 +63,26 @@ What happens if you use scientific integers like ``1e+10``?
 
 Can you add negative numbers?
 
-| What do you think the following expressions will return?
+What do you think the following expressions will return?
+
 | ``(- 3 4)``
 | ``(* 4 5)``
 | ``(/ 1.0 4.0)``
 
-| Evaluate the following expressions and try and work out why they return what they do?
+Evaluate the following expressions and try and work out why they return what they do?
+
 | ``(/ 1 4)``
 | ``(/ 1 4.)``
 
-| What do you think these symbols represent?
+What do you think these symbols represent?
+
 | ``#b10101010``
 | ``#o127``
 | ``#x12DE``
 | (**Tip**: try using them in arithmetic expressions)
 
-| What do you think these symbols represent?
+What do you think these symbols represent?
+
 | ``1.0e+INF``
 | ``-1.0e+INF``
 | ``0.0e+NaN`` or ``-0.0e+NaN``

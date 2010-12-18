@@ -6,11 +6,11 @@ Why Did I Write This Book?
 Why eLisp?
 ----------
 
-I am writing this book to lean eLisp myself. I used Emacs every day because it the IDE of choice for Erlang and I am an Erlang programmer.
+I am writing this book to lean eLisp myself. I use Emacs every day because it is the IDE of choice for Erlang and I am an Erlang programmer.
 
 My relationship with Emacs is that of Simson Garfinkel, Daniel Weise and Steven Strassmann to `Unix`_ - I genuinely loathe it.
 
-Emacs is the most prominent piece of software in the *apolstolic* tradition. You are supposed to learn it by being instructed by someone who learnt it by being instructed by someone recursively all the way back to the original authors in a continuous apostolic succession.
+Emacs is the most prominent piece of software in the *apostolic* tradition. You are supposed to learn it by being instructed by someone who learnt it by being instructed by someone recursively all the way back to the original authors in a continuous apostolic succession.
 
 I would fain be the John Knox, the Calvin, the Luther, and hell mend them.
 
