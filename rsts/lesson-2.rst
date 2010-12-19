@@ -184,6 +184,12 @@ You can also cast strings which contain the numerical characters into numbers:
 :You Type: ``(string-to-number "1234")``
 :Result: ``1234``
 
+---------------------
+What You Have Learned
+---------------------
+
+We have seen the list of primitive and composite data types and have looked at a couple of the most common of them in some detail. We have seen how to test what data type an object it, and how to cast one data type to another.
+
 ------------------
 Additional Reading
 ------------------

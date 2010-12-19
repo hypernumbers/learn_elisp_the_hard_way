@@ -2,6 +2,10 @@
 Lesson 1 - First eLisp Programme
 ================================
 
+----------------
+Lets Get Started
+----------------
+
 This lesson will show you how to execute your first eLisp programme.
 
 * start Emacs 
