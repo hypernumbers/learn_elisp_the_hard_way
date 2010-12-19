@@ -20,6 +20,7 @@ Contents:
    rsts/lesson-1
    rsts/lesson-2
    rsts/lesson-3
+   rsts/lesson-4
 
 Indices and tables
 ==================
