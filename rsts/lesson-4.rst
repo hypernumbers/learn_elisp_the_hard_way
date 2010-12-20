@@ -35,7 +35,7 @@ Variables don't just exist with default values. If you try and use a random symb
 
 The variable ``do_tell`` has been created but its value is *void* and it cannot be used.
 
-You give a symbol a value using the operators ``set`` and ``setq``.
+You give a symbol a value using the operators ``set`` and ``setq``. **These define global variables**.
 
 :You Type: ``(set 'do_tell '11)``
 :Result: ``11``
@@ -59,7 +59,7 @@ We can now use this variable in an expression:
 What You Have Learned
 ---------------------
 
-We have learned how to set values of Symbols and then reuse those symbols in expressions.
+You have learned how to set values of Symbols and then reuse those symbols in expressions.
 
 ----------------
 Extra Activities
