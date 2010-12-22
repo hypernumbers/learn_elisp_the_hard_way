@@ -2,6 +2,8 @@
 Lesson 4 - Symbols And Variables
 ================================
 
+**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 1.
+
 -------
 Symbols
 -------

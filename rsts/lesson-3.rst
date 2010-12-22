@@ -2,6 +2,8 @@
 Lesson 3 - Lists (At Last)
 ==========================
 
+**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 1.
+
 ------------
 Introduction
 ------------
