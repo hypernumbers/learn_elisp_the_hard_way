@@ -22,6 +22,7 @@ Contents:
    rsts/lesson-3
    rsts/lesson-4
    rsts/lesson-5
+   rsts/lesson-6
 
 Indices and tables
 ==================

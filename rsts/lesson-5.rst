@@ -3,14 +3,14 @@ Lesson 5 - Writing Functions
 ============================
 
 ----------------
-Batch Mode eLisp
+Script Mode eLisp
 ----------------
 
-In order to write functions it is necessary to change the way in which eLisp expressions will be evaluated. Instead of invoking expressions in the \*scratch\* buffer it is time to switch to running eLisp in batch mode. 
+In order to write functions it is necessary to change the way in which eLisp expressions will be evaluated. Instead of invoking expressions in the \*scratch\* buffer it is time to switch to running eLisp as a script. 
 
-In batch mode an eLisp file is invoked from the command line. In order to run a batch file called *first_programme.el* the following command would be run from the command line ``emacs --no-site-file --batch first_programme.el``
+To do this an eLisp file has to be invoked from the command line. If you had some eLisp expressions in a file called *first_programme.el* the following command would be run it as a script ``emacs --no-site-file --script first_programme.el``
 
-The option ``--no-site-file`` means that emacs doesn't load any eLisp from the site libraries. By default the ``--batch`` option also includes option ``--no-init-file``. Normally emacs starts and executes a init file. In Ubuntu this file is ``.emacs`` in the users home directory.
+The option ``--no-site-file`` means that emacs doesn't load any eLisp from the site libraries. By default the ``--script`` option also includes option ``--no-init-file``. Normally emacs starts and executes a init file. In Ubuntu this file is ``.emacs`` in the users home directory.
 
 Start by creating a new directory, and in that create a file called *message.el*. The contents of that file is a single eLisp expression:
 
@@ -18,7 +18,7 @@ Start by creating a new directory, and in that create a file called *message.el*
 
 The file should be executed by running this batch command in the directory in which you have created *message.el*
 
-``emacs --no-site-file --batch message.el``
+``emacs --no-site-file --script message.el``
 
 The output should be ``Bonjour Tout Le Monde``
 
