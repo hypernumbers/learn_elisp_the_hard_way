@@ -21,7 +21,7 @@ We have seen how to use ``set`` and ``setq`` to set *global* variables. Global v
 
 It is important to be able to define *local* variables - variables which can only be set and changed locally from a small number of defined and known places.
 
-The function used to do this is ``let``. It works like set.
+The function used to do this is ``let``. It works like ``set``.
 
 Type the following expressions in a file:
 
@@ -75,11 +75,11 @@ Recursive functions are an important part of functional programming. A recursive
 
 Create the following file:
 
-| ``(defun print_int (n)
-|   ``"This function prints a list of integers in reverse order"
-|    ``(message (number-to-string n))
-|    ``(if (= n 0) (message "That's all folks!") (print_int (- n 1)))) 
-| ``(print_int 5)
+| ``(defun print_int (n)``
+|   ``"This function prints a list of integers in reverse order"``
+|    ``(message (number-to-string n))``
+|    ``(if (= n 0) (message "That's all folks!") (print_int (- n 1))))``
+| ``(print_int 5)``
 
 Your output should be:
 
@@ -91,9 +91,7 @@ Your output should be:
 | ``0``
 | ``That's all folks!``
 
-The key is the ``if`` expression. The first expression is *the terminal test*. If it is true the function prints *That's all folks!". If the terminal test is not met (ie it is false) the function calls itself with a value of the current value of ``n - 1``.
-
-.. warning:: Need to write a section on scope up the stacktrace
+The key is the ``if`` expression. The first expression is *the terminal test*. If it is true the function prints "*That's all folks!*". If the terminal test is not met (ie it is false) the function calls itself with a value of the current value of ``n - 1``.
 
 ---------------------
 What You Have Learned
@@ -111,6 +109,6 @@ There is a section on `Recursive Functions`_ in the Gnu Emacs Lisp Intro.
 Extra Activities
 ----------------
 
-.. warning:: do some extra activities
+Write a recursive function to calculate the factorial of an integer.
 
 .. _Recursive Functions: http://www.gnu.org/software/emacs/emacs-lisp-intro/html_node/Recursive-Definition-Parts.html#Recursive-Definition-Parts
