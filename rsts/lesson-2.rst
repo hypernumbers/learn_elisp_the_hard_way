@@ -39,7 +39,7 @@ The general set of primitive data types of eLisp are:
 
 These primitive data types largely correspond to the primitive data types of other Lisps.
 
-In addition eLisp has a number of primitive data types that are peculiar to it, because they pertain to the fact that eLisp is the scripting language of an editor. These primitive data types are:
+In addition eLisp has a number of data types that are peculiar to it, because they pertain to the fact that eLisp is the scripting language of an editor. These data types are:
 
 * buffer
 * marker
