@@ -13,6 +13,8 @@ Learn eLisp The Hard Way
    rsts/why
    rsts/what
    rsts/references
+   rsts/other-formats
+   rsts/ttd
 
 Getting Started
 ===============
@@ -51,3 +53,5 @@ eLisp In The Debugger
 
    rsts/lesson-7
    rsts/lesson-8
+   rsts/best-practice-1
+   rsts/lesson-9
