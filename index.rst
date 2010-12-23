@@ -3,10 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Learn eLisp The Hard Way
-====================================================
-
-Contents:
+Learn eLisp The Hard Way
+========================
 
 .. toctree::
    :maxdepth: 1
@@ -15,18 +13,41 @@ Contents:
    rsts/why
    rsts/what
    rsts/references
+
+Getting Started
+===============
+
+.. toctree::
+   :maxdepth: 1
+
    rsts/getting-started
    rsts/lesson-0
+
+First Steps
+===========
+
+.. toctree::
+   :maxdepth: 1
+
    rsts/lesson-1
    rsts/lesson-2
    rsts/lesson-3
    rsts/lesson-4
+
+eLisp Scripts
+=============
+
+.. toctree::
+   :maxdepth: 1
+
    rsts/lesson-5
    rsts/lesson-6
 
-Indices and tables
-==================
+eLisp In The Debugger
+=====================
 
-* :ref:`genindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1
 
+   rsts/lesson-7
+   rsts/lesson-8
