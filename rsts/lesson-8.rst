@@ -82,9 +82,20 @@ Binding The Custom Function To A Key Sequence
 
 To bind the custom function to a key sequence add the following line to the ``.emacs`` file.
 
-``(global-set-key [f12] 'doodlebug)``
+``(global-set-key [f5] 'doodlebug)``
 
-This expression will bind the function ``doodlebug`` to the *F12* key.
+This expression will bind the function ``doodlebug`` to the *F5* function key. Once you have re-evaluated the ``.emacs`` buffer you will be able to fire the function with the *F5* key.
+
+We can identify which function is bound to which key with the command:
+
+``(lookup-key (current-global-map) [f5])``
+
+The rules for binding keys are a bit complex. We can use the operator ``kbd`` to generate the appropriate input to ``global-set-key`` and ``lookup-key``, for instance:
+ 
+| ``(global-set-key (kbd "C-c a") 'doodlebug)``
+| ``(lookup-key (current-global-map) (kbd "C-c a"))``
+
+The expression ``(kbd "C-c a")`` generates the appropriate keymap for the key sequence *[C-c][a]*.
 
 ---------------------
 What You Have Learned
@@ -100,6 +111,8 @@ You have learned:
 Additional Reading
 ------------------
 
+There is a good discussion of keybindings in your ``.emacs`` file in the Emacs Lisp Introduction.
+
 The whole process of binding keys to functions in emacs is quite complex and is covered in the `Keymaps`_ section of the manual
 
 ----------------
@@ -110,6 +123,10 @@ What happens if you try and run a function which doesn't include the expression 
 
 Experiment with other Interactive Codes in your functions.
 
+Bind and unbind some keys to functions in your ``.emacs`` file.
 
 .. _Interactive Codes: http://www.gnu.org/software/emacs/elisp/html_node/Interactive-Codes.html#Interactive-Codes
+
+... _Key Bindings: http://www.gnu.org/software/emacs/emacs-lisp-intro/html_node/Keybindings.html#Keybindings
+
 .. _Keymaps: http://www.gnu.org/s/emacs/manual/html_node/elisp/Keymaps.html#Keymaps
