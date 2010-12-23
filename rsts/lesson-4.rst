@@ -57,6 +57,28 @@ We can now use this variable in an expression:
 :You Type: ``(+ do_tell 33)``
 :Return: ``55``
 
+There is a variant on ``set`` and ``setq`` called ``defvar`` that defines a variable. It is different from them in that it only applies to unitialised variables. If a variable is already defined it won't overwrite it.
+
+:You Type: ``(defvar farmer_dell 123)``
+:Return: ``farmer_dell``
+
+We can now see what ``defvar`` has done to the variable ``farmer_dell`` by evaluating that:
+
+:You Type: ``farmer_dell``
+:Return: ``123``
+
+But if we ``defvar`` on ``do_tell`` it won't take:
+
+:You Type: ``(defvar do_tell 123)``
+:Return: ``do_tel``
+
+and now evaluate ``do_tell``:
+
+:You Type: ``do_tell``
+:Return: ``33``
+
+(This only works if you have used ``set`` or ``setq`` to define ``do_tell`` in the \*scratch\* buffer earlier in the same editing session).
+
 ---------------------
 What You Have Learned
 ---------------------
