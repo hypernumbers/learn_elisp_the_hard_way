@@ -6,7 +6,7 @@ Things To Do
 Changes to written lessons
 --------------------------
 
-* need a lesson on arrays (used in menus for lesson 9) mebbies in lesson 3 on lists or interpolate a lesson 3a for the mo
+* need a lesson on arrays (used in menus for lesson 9)  - called lesson-6 a for he mo pending reorganisation
 
 * lesson 9 needs finishing
 

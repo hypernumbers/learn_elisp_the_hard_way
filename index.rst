@@ -16,42 +16,43 @@ Learn eLisp The Hard Way
    rsts/other-formats
    rsts/ttd
 
-Getting Started
-===============
+1 - Getting Started
+===================
 
 .. toctree::
    :maxdepth: 1
 
    rsts/getting-started
-   rsts/lesson-0
+   rsts/lesson-1-1
 
-First Steps
-===========
-
-.. toctree::
-   :maxdepth: 1
-
-   rsts/lesson-1
-   rsts/lesson-2
-   rsts/lesson-3
-   rsts/lesson-4
-
-eLisp Scripts
-=============
+2 - First Steps
+===============
 
 .. toctree::
    :maxdepth: 1
 
-   rsts/lesson-5
-   rsts/lesson-6
+   rsts/lesson-2-1
+   rsts/lesson-2-2
+   rsts/lesson-2-3
+   rsts/lesson-2-4
+   rsts/lesson-2-5
 
-eLisp In The Debugger
-=====================
+3 - eLisp Scripts
+=================
 
 .. toctree::
    :maxdepth: 1
 
-   rsts/lesson-7
-   rsts/lesson-8
+   rsts/lesson-3-1
+   rsts/lesson-3-2
+
+4 - eLisp In The Debugger
+=========================
+
+.. toctree::
+   :maxdepth: 1
+
+   rsts/lesson-4-1
+   rsts/lesson-4-2
    rsts/best-practice-1
-   rsts/lesson-9
+   rsts/lesson-4-3

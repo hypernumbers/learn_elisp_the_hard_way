@@ -37,7 +37,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Learn eLisp The Hard Way'
+project = u'Learn eLisp The Hard Way (Draft In Progress)'
 copyright = u'2010, Gordon Guthrie'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -103,7 +103,7 @@ html_theme = 'default'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Learn eLisp The Hard Way'
+html_title = 'Learn eLisp The Hard Way (Draft In Progress)'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
