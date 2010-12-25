@@ -24,7 +24,7 @@ You can checkout the sources for this book from the `Public Git Repository`_
 Website
 -------
 
-This book has an Official Website.
+This book has an `Official Website`_.
 
 .. _Mailing List: http://groups.google.com/group/learn-elisp-for-emacs
 
