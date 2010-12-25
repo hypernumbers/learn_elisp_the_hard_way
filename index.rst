@@ -1,10 +1,10 @@
-.. Learn eLisp The Hard Way master file, created by
+.. Learn eLisp For Emacs master file, created by
    sphinx-quickstart on Sat Nov  6 22:31:37 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Learn eLisp The Hard Way
-========================
+Learn eLisp For Emacs
+=====================
 
 .. toctree::
    :maxdepth: 1
@@ -13,6 +13,7 @@ Learn eLisp The Hard Way
    rsts/why
    rsts/what
    rsts/references
+   rsts/community
    rsts/other-formats
    rsts/ttd
 
