@@ -127,6 +127,6 @@ Bind and unbind some keys to functions in your ``.emacs`` file.
 
 .. _Interactive Codes: http://www.gnu.org/software/emacs/elisp/html_node/Interactive-Codes.html#Interactive-Codes
 
-... _Key Bindings: http://www.gnu.org/software/emacs/emacs-lisp-intro/html_node/Keybindings.html#Keybindings
+.. _Key Bindings: http://www.gnu.org/software/emacs/emacs-lisp-intro/html_node/Keybindings.html#Keybindings
 
 .. _Keymaps: http://www.gnu.org/s/emacs/manual/html_node/elisp/Keymaps.html#Keymaps
