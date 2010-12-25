@@ -2,7 +2,7 @@
 Lesson 4-3 - Emacs Menus
 ========================
 
-**Prerequesite:** this lesson presumes you know how to use the ``.emacs`` file as outlined in Lesson 9.
+**Prerequesite:** this lesson presumes you know how to use the ``.emacs`` file as outlined in Lessons 4-1 and 4-2.
 
 ------------
 Introduction

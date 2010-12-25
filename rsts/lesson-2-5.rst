@@ -2,6 +2,8 @@
 Lesson 2-5 - Arrays (And Sequences)
 ===================================
 
+**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
+
 ------------
 Introduction
 ------------

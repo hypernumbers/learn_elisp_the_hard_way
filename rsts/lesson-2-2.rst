@@ -2,7 +2,7 @@
 Lesson 2-2 - Primitive Data Types (1)
 =====================================
 
-**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 1.
+**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
 
 -------
 Context
