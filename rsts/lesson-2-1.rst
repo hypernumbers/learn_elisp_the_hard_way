@@ -39,9 +39,9 @@ The way in which you evaluate the expression determines where the output goes. A
 
 Now put the cursor at the **end** of the expression and type ``Control-x Control-e``
 
-:Result: In the window nothing will change by the value is now placed in the *minibuffer* ``(+ 1.0e+3 2.0-2)``
+:Result: In the window nothing will change by the value is now placed in the *minibuffer* ``1000.02``
 
-You can express floating point numbers is scientific notation
+You can express floating point numbers in scientific notation
 
 ---------------------
 What You Have Learned
