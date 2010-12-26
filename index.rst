@@ -58,3 +58,11 @@ Learn eLisp For Emacs
    rsts/best-practice-1
    rsts/lesson-4-3
    rsts/lesson-4-4
+
+5 - eLisp Files
+===============
+
+.. toctree::
+   :maxdepth: 1
+
+   rsts/lesson-5-1
