@@ -47,8 +47,8 @@ Learn eLisp For Emacs
    rsts/lesson-3-1
    rsts/lesson-3-2
 
-4 - eLisp In The Debugger
-=========================
+4 - eLisp In Emacs (With The Debugger)
+======================================
 
 .. toctree::
    :maxdepth: 1
@@ -57,3 +57,4 @@ Learn eLisp For Emacs
    rsts/lesson-4-2
    rsts/best-practice-1
    rsts/lesson-4-3
+   rsts/lesson-4-4
