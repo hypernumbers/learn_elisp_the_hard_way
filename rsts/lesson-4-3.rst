@@ -31,7 +31,7 @@ We are going to create a menu called ``Omar`` which calls these two functions.
 Type the following into your ``.emacs`` file and re-evaluate the buffer.
 
 | ``(define-key global-map [menu-bar omar]``
-|  ``(cons "Omar's Menu" (make-sparse-keymap "Omar")))``
+|   ``(cons "Omar's Menu" (make-sparse-keymap "Omar")))``
 
 You will see that this has created a new top-level menu at the left of the menu bar. It consists of the words *Omar's Menu*. There are no items below it.
 
@@ -46,7 +46,9 @@ You can look at the value of the global keymap by evaluating the expression ``(c
 
 The next parameter is the array ``[menu-bar omar]`` which tells the global keymap that this new key is under the menu. The final item is a parameter list - in this cause just jusing a normal string as the key. The function ``make-sparse-keymap`` creates an empty keymap - we will fill this keymap with the menu items later.
 
-The menu is in the wrong place really. The standard Emacs menus are:
+You should be quite confused by the terminology now. We are creating *menus* and all the functions refer to *keys*. Emacs has a mechanism for handling keyboard events. All the other user input mechanisms (mouse events, menus, toolbar buttons, etc, etc) are all extensions of key-handling mechanisms. Hence the fact that all these things are configured by *key* related functions.
+
+The menu we have just created is in the wrong place really. The standard Emacs menus are:
 
 * *File*
 * *Edit*
