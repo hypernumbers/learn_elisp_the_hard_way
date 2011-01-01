@@ -46,7 +46,7 @@ Using Our File
 
 We have our new directory in the *load-path* we have our file in that directory. Is that enough?
 
-Quite Emacs and restart (thus losing all our history and defined functions). Our new directory should still be in the *load-path* but will the code be loaded.
+Quit Emacs and restart (thus losing all our history and defined functions). Our new directory should still be in the *load-path*; but will the code be loaded?
 
 Emacs has an interactive command for executing interactive functions called execute-extended-command. It is bound to the key combination *[M-x]* so simply type that and the focus will switch to the mini-buffer and wait for you to enter the name of the command you want to run. Stick in ``omar-hotel``. Your attempt to run it should fail.
 
@@ -93,3 +93,10 @@ You have learned:
 * how Emacs looks for modules
 * how to load some custom code into Emacs at startup
 
+------------------
+Additional Reading
+------------------
+
+There is a slightly more to loading code in eLisp which is descriped in the `Loading Code`_ section of the eLisp Reference Manual.
+
+.. _Loading Code: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/How-Programs-Do-Loading.html#How-Programs-Do-Loading
