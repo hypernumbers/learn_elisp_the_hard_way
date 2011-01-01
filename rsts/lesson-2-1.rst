@@ -1,4 +1,4 @@
-==================================
+=================================
 Lesson 2-1 - First eLisp Programme
 ==================================
 
@@ -33,7 +33,7 @@ Now put the cursor in the **middle** of the expression - that is to say between 
 
 :Result: In the window nothing will change. The result of the expression is now put in the *minibuffer* ``3.0``
 
-The way in which you evaluate the expression determines where the output goes. Alos notice that the previous examples used integers like ``1`` and ``2`` and returned an integer value. This expression uses floating point numbers like ``1.0`` and returns a float as the result.
+The way in which you evaluate the expression determines where the output goes. Also notice that the previous examples used integers like ``1`` and ``2`` and returned an integer value. This expression uses floating point numbers like ``1.0`` and returns a float as the result.
 
 :You Type: ``(+ 1.0e+3 2.0e-2)``
 
