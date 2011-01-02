@@ -11,6 +11,7 @@ Learn eLisp For Emacs
 
    rsts/learning-elisp
    rsts/why
+   rsts/who
    rsts/what
    rsts/references
    rsts/community
