@@ -59,6 +59,7 @@ Learn eLisp For Emacs
    rsts/best-practice-1
    rsts/lesson-4-3
    rsts/lesson-4-4
+   rsts/emacs-and-the-dot-emacs-file
 
 5 - eLisp Files
 ===============
