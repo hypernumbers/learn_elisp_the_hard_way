@@ -19,7 +19,7 @@ There is another type of *sequence* in eLisp - an *array*. Arrays themselves com
 
 The relationship of all these things is shown below:
 
-.. image :: /images/sequences.png
+.. image :: /images/elisp-sequences.png
 
 There are sets of functions that operate on all *sequences*, some which apply to *array*'s only and then other sets for the actual data types themselves (*lists*, *strings*, *vectors*, *bool-vectors* and *char-tables*).
 
