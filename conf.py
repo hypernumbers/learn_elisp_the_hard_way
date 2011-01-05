@@ -151,7 +151,7 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {'index' : 'comments.html'}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -167,7 +167,7 @@ html_use_index = True
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -179,7 +179,6 @@ html_use_index = True
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Learn-eLisp-For-Emacsdoc'
-
 
 # -- Options for LaTeX output --------------------------------------------------
 
