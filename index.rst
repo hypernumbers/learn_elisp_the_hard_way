@@ -9,14 +9,14 @@ Learn eLisp For Emacs
 .. toctree::
    :maxdepth: 1
 
-   rsts/learning-elisp
-   rsts/why
-   rsts/who
-   rsts/what
-   rsts/references
-   rsts/community
-   rsts/other-formats
-   rsts/ttd
+   contents/learning-elisp
+   contents/why-did-I-write-this-book
+   contents/who-is-this-book-for
+   contents/what-will-this-book-cover
+   contents/references
+   contents/the-learn-elisp-for-emacs-community
+   contents/other-formats
+   contents/ttd
 
 1 - Getting Started
 ===================
@@ -24,8 +24,8 @@ Learn eLisp For Emacs
 .. toctree::
    :maxdepth: 1
 
-   rsts/getting-started
-   rsts/lesson-1-1
+   contents/getting-started
+   contents/lesson-1-1-using-emacs
 
 2 - First Steps
 ===============
@@ -33,11 +33,11 @@ Learn eLisp For Emacs
 .. toctree::
    :maxdepth: 1
 
-   rsts/lesson-2-1
-   rsts/lesson-2-2
-   rsts/lesson-2-3
-   rsts/lesson-2-4
-   rsts/lesson-2-5
+   contents/lesson-2-1-first-elisp-programme
+   contents/lesson-2-2-primitive-data-types-1
+   contents/lesson-2-3-lists-at-last
+   contents/lesson-2-4-symbols-and-variables
+   contents/lesson-2-5-arrays-and-sequences
 
 3 - eLisp Scripts
 =================
@@ -45,8 +45,8 @@ Learn eLisp For Emacs
 .. toctree::
    :maxdepth: 1
 
-   rsts/lesson-3-1
-   rsts/lesson-3-2
+   contents/lesson-3-1-writing-functions
+   contents/lesson-3-2-more-functions
 
 4 - eLisp In Emacs (With The Debugger)
 ======================================
@@ -54,12 +54,12 @@ Learn eLisp For Emacs
 .. toctree::
    :maxdepth: 1
 
-   rsts/lesson-4-1
-   rsts/lesson-4-2
-   rsts/best-practice-1
-   rsts/lesson-4-3
-   rsts/lesson-4-4
-   rsts/emacs-and-the-dot-emacs-file
+   contents/lesson-4-1-writing-elisp-in-emacs
+   contents/lesson-4-2-adding-custom-functions-to-emacs
+   contents/best-practice-1-writing-better-elisp
+   contents/lesson-4-3-emacs-menus
+   contents/lesson-4-4-adding-buttons-to-the-toolbar
+   contents/emacs-and-the-dot-emacs-file
 
 5 - eLisp Files
 ===============
@@ -67,4 +67,5 @@ Learn eLisp For Emacs
 .. toctree::
    :maxdepth: 1
 
-   rsts/lesson-5-1
+   contents/lesson-5-1-elisp-in-files
+   contents/lesson-5-2-working-with-buffers
