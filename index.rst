@@ -68,4 +68,4 @@ Learn eLisp For Emacs
    :maxdepth: 1
 
    contents/lesson-5-1-elisp-in-files
-   contents/lesson-5-2-working-with-buffers
+   contents/lesson-5-2-working-with-buffers-1

@@ -1,6 +1,6 @@
-=================================
-Lesson 5-2 - Working With Buffers
-=================================
+=====================================
+Lesson 5-2 - Working With Buffers (1)
+=====================================
 
 ------------
 Introduction
@@ -38,7 +38,6 @@ Create a new file called ``omarmenu.el`` in the directory ``~/.emacs.d/omars-dir
 | ``(provide 'omarmenu)``
 
 
-
 Then open your ``.emacs`` file in your home directory add the following lines - You might want to delete everything that is in it first:
 
 | ``(add-to-list 'load-path "~/.emacs.d/omars-dir")``
@@ -60,11 +59,26 @@ Click on the menu-item *Count* and the message should print in the modeline.
 
 What we will do in this and subsequent lessons is fill in the *empty function* *Count* until it can count the words in the current buffer.
 
----------------------
-Maninpulating Buffers
----------------------
+----------------------
+Examining Our Function
+----------------------
 
+We are going to use a lot of Emacs functions to write our function `omar-count` so we need to learn how to look up their documentation.
 
+Let's start by examining our own function. We will use the built-in Emacs function `describe-function`. It can be called in the usual way:
+
+*[M]-x* `describe-function` and then enter `omar-count` into the modeline. You should see something like this:
+
+.. image :: /images/emacs-using-describe-function.png
+
+Lets add a proper function definition for our function. Edit `omarmenu.el`:
+
+| ``(defun omar-count ()``
+|   ``(interactive)``
+|   ``"This function will count the number of words in the current buffer"``
+|   ``(message "When we have finished this will count the number of words in the current buffer"))``
+
+To see this help string in action you will need to either select the menu item *Emacs-Lisp -> Evaluate Buffer* or close and re-open emacs.
 
 ---------------------
 What You Have Learned
