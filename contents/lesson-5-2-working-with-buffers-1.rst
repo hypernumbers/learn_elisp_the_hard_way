@@ -9,6 +9,7 @@ Introduction
 We need to learn how to programme eLisp a bit better, and the best way to do that is to write some programmes that add functionality to Emacs itself.
 
 In this lesson we are going to:
+
 * add a menu to Emacs
 * call functions from that menu which operate on the current buffer
 
@@ -25,22 +26,24 @@ Preparing Our eLisp File
 
 Create a new file called ``omarmenu.el`` in the directory ``~/.emacs.d/omars-dir/`` and type the following code in:
 
-| ``(defun omar-count ()``
-|   ``(interactive)``
-|   ``(message "When we have finished this will count the number of words in the current buffer"))``
-|
-| ``(defvar menu-bar-omar-menu (make-sparse-keymap "Omar"))``
-|
-| ``(define-key-after global-map [menu-bar omar]``
-|   ``(cons "Omar's Menu" (make-sparse-keymap "Omar")))``
-|
-| ``(define-key global-map [menu-bar omar omar-count]``
-|   ``'(menu-item "Count" omar-count``
-| 	      ``:help "Will eventually count words in the current buffer!"))``
-|
-| ``(global-set-key (kbd "C-c a") 'omar-count)``
-|
-| ``(provide 'omarmenu)``
+::
+
+ (defun omar-count ()
+   (interactive)
+   (message "When we have finished this will count the number of words in the current buffer"))
+
+ (defvar menu-bar-omar-menu (make-sparse-keymap "Omar"))
+
+ (define-key-after global-map [menu-bar omar]
+   (cons "Omar's Menu" (make-sparse-keymap "Omar")))
+
+ (define-key global-map [menu-bar omar omar-count]
+   '(menu-item "Count" omar-count
+ 	      :help "Will eventually count words in the current buffer!"))
+
+ (global-set-key (kbd "C-c a") 'omar-count)
+
+ (provide 'omarmenu)
 
 
 Then open your ``.emacs`` file in your home directory add the following lines - You might want to delete everything that is in it first:
@@ -72,7 +75,10 @@ We are going to use a lot of Emacs functions to write our function `omar-count` 
 
 Let's start by examining our own function. We will use the built-in Emacs function `describe-function`. It can be called in the usual way:
 
-*[M]-x* `describe-function` and then enter `omar-count` into the modeline. You should see something like this:
+* *[M]-x* `describe-function`
+* then enter `omar-count` into the modeline.
+
+You should see something like this:
 
 .. image :: /images/emacs-using-describe-function.png
 
@@ -83,7 +89,7 @@ Lets add a proper function definition for our function. Edit `omarmenu.el`:
 |   ``"This function counts the number of words in the current buffer"``
 |   ``(message "When we have finished this will count the number of words in the current buffer"))``
 
-To see this help string in action you will need to either select the menu item *Emacs-Lisp -> Evaluate Buffer* or close and re-open emacs before typing *[M]-x* `describe-opinion`
+To see this help string in action you will need to either select the menu item *Emacs-Lisp -> Evaluate Buffer* or close and re-open emacs before typing *[M]-x* `describe-function`
 
 -------------------------
 Implementing The Function
@@ -101,9 +107,9 @@ Now that we have the function wired in, lets make it do what it says on the tin.
 |      ``(setq count (1+ count)))``
 |    ``(message "Buffer has %d words." count)))``
 
-Lets see what this function does. It starts by defining a local variable `count` using the `let` operator. Note that the brackets which include `let` cover the whole rest of the function.
+Lets see what this function does. It starts by defining a local variable `count` using the `let` operator. Note that the brackets which include `let` cover the whole rest of the function. We will look at local and global scope of variables in the next lesson.
 
-The next function call is ``(goto-char (point-min))``. We can use `descibe-function` to work what that does. Executing *[M]-x* `describe-value` for `goto-char` and it prints the following:
+The next function call is ``(goto-char (point-min))``. We can use `describe-function` to work what that does. Executing *[M]-x* `describe-function` for `goto-char` and it prints the following:
 
 | ``goto-char is an interactive built-in function in `C source code'.``
 |
@@ -114,7 +120,7 @@ The next function call is ``(goto-char (point-min))``. We can use `descibe-funct
 | ``Set point to position, a number or marker.``
 | ``Beginning of buffer is position (point-min), end is (point-max).``
 |
-| ``The return value is position.`
+| ``The return value is position.``
 
 We can repeat this exercise and see that `point`, `point-min` and `point-max` are all functions that evaluate, respectively, to:
 
@@ -129,14 +135,14 @@ Note that there are functions that return values, but not the names of variables
 
 Attempting to evaluate it as a variable will drop you into the debugger.
 
-The function is then pretty straight forward to understand. Step through the bugger, word-by-word, incrementing the value of `count` every time you do. At the end print out the value of `count`.
+The function is then pretty straight forward to understand. Step through the buffer, word-by-word, incrementing the value of `count` every time you do. At the end print out the value of `count`.
 
-Open a file on your system and try out the function. You will notice that that the `omar-count` actually moves the cursor - it is not some sort of virtual cursor, `got-chat` and `forward-word` actually move the cursor. This behaviour is sub-optimal from a user perspective.
+Open a file on your system and try out the function. You will notice that that the `omar-count` actually moves the cursor - it is not some sort of virtual cursor, `got-char` and `forward-word` actually move the cursor. This behaviour is sub-optimal from a user perspective.
 
-It can be cured by using a special function `save-excursion'. Edit the function to add wrap the body our count function in it as shown below:
+It can be cured by using a special function `save-excursion`. Edit the function to add wrap the body our count function in it as shown below:
 
 | ``(defun omar-count ()``
-|   ``"This function will count the number of words in the current buffer, yeah!"``
+|   ``"This function will count the number of words in the current buffer."``
 |   ``(interactive)``
 |   ``(save-excursion``
 |     ``(let ((count 0))``
