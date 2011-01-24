@@ -150,13 +150,15 @@ Certain functions expect certain types - for instance ``+`` expects numbers as i
 
 This is in a window called \*backtrace\*. It is worth looking at the output in some detail.
 
-| ``Debugger entered--Lisp error: (wrong-type-argument number-or-marker-p "two")``
-|  ``+(1 "two")``
-|  ``eval((+ 1 "two"))``
-|  ``eval-last-sexp-1(t)``
-|  ``eval-last-sexp(t)``
-|  ``eval-print-last-sexp()``
-|  ``call-interactively(eval-print-last-sexp nil nil)``
+::
+
+ Debugger entered--Lisp error: (wrong-type-argument number-or-marker-p "two")
+  +(1 "two")
+  eval((+ 1 "two"))
+  eval-last-sexp-1(t)
+  eval-last-sexp(t)
+  eval-print-last-sexp()
+  call-interactively(eval-print-last-sexp nil nil)
 
 The first line of this give us some details of the problem, it is a Lisp error - the predicate function ``number-or-marker-p`` on the parameter ``two`` threw an ``wrong-type-argument`` error. We will look at the debugger later on in the book. If you go back to the list of Emacs specific types you will see that there is one called marker. The operator ``+`` can operate on numbers or markers and so it uses this special predicate function to test the arguments before running the function.
 

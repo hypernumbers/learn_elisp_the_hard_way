@@ -20,10 +20,12 @@ The Basics Of The Toolbar
 
 Add the following line to your ``.emacs`` file and re-evaluate the buffer:
 
-| ``(define-key global-map [tool-bar omar-button]``
-|  ``'(menu-item "Hotel" omar-hotel``
-|    ``:help "OMG Omar!"``
-|    ``:image (image :type xpm :file "omar.xpm")))``
+::
+
+ (define-key global-map [tool-bar omar-button]
+ '(menu-item "Hotel" omar-hotel
+    :help "OMG Omar!"
+    :image (image :type xpm :file "omar.xpm")))
 
 We are binding in a ``menu-item`` onto the tool-bar - the ``menu-item`` has a paired-list with an image description.
 
@@ -42,4 +44,3 @@ Extra Activities
 ----------------
 
 The tool-bar button we created was added at the start of the tool-bar. How would you add it to the end of the toolbar?
-

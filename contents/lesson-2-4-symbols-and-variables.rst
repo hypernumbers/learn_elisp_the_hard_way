@@ -47,13 +47,15 @@ Variables don't just exist with default values. If you try and use a random symb
 :You Type: ``(+ 1 do_tell)``
 :Result: You are dropped into the debugger
 
-| ``Debugger entered--Lisp error: (void-variable do_tell)``
-|  ``(+ 1 do_tell)``
-|  ``eval((+ 1 do_tell))``
-|  ``eval-last-sexp-1(t)``
-|  ``eval-last-sexp(t)``
-|  ``eval-print-last-sexp()``
-|  ``call-interactively(eval-print-last-sexp nil nil)``
+::
+
+ Debugger entered--Lisp error: (void-variable do_tell)
+  (+ 1 do_tell)
+  eval((+ 1 do_tell))
+  eval-last-sexp-1(t)
+  eval-last-sexp(t)
+  eval-print-last-sexp()
+  call-interactively(eval-print-last-sexp nil nil)
 
 The variable ``do_tell`` has been created but its value is *void* and it cannot be used.
 

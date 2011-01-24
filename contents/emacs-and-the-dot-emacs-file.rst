@@ -32,18 +32,20 @@ Notice that the modeline now says something like `Wrote /home/gordonguthrie/.ema
 
 Now open the `.emacs` file. Mine looks like:
 
-| ``(custom-set-variables``
-|   ``;; custom-set-variables was added by Custom.``
-|   ``;; If you edit it by hand, you could mess it up, so be careful.``
-|   ``;; Your init file should contain only one such instance.``
-|   ``;; If there is more than one, they won't work right.``
-|  ``)``
-| ``(custom-set-faces``
-|   ``;; custom-set-faces was added by Custom.``
-|   ``;; If you edit it by hand, you could mess it up, so be careful.``
-|   ``;; Your init file should contain only one such instance.``
-|   ``;; If there is more than one, they won't work right.``
-|  ``'(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 143 :width normal :foundry "bitstream" :family "Courier 10 Pitch")))))``
+::
+
+ (custom-set-variables
+   ;; custom-set-variables was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+  )
+ (custom-set-faces
+   ;; custom-set-faces was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+  '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 143 :width normal :foundry "bitstream" :family "Courier 10 Pitch")))))
 
 Emacs has *saved options* into the `.emacs` file. Emacs marks the code that it adds with quotes as above. If you see big chunks of code like this in your `.emacs` file - that's what it is. Don't panic.
 

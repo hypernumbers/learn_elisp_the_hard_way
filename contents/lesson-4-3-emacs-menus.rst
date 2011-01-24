@@ -12,15 +12,17 @@ This section will look at creating a new menu in Emacs and binding a custom func
 
 We will incorporate our best practice naming conventions in it.
 
-| ``(defun omar-hip ()``
-|   ``"a nonce menu function"``
-|   ``(interactive)``
-|   ``(message "hip, hop, don't stop"))``
+::
 
-| ``(defun omar-hotel ()``
-|  ``"another nonce menu function"``
-|  ``(interactive)``
-|  ``(message "hotel, motel, holiday inn"))``
+ (defun omar-hip ()
+   "a nonce menu function"
+   (interactive)
+   (message "hip, hop, don't stop"))
+
+ (defun omar-hotel ()
+  "another nonce menu function"
+  (interactive)
+  (message "hotel, motel, holiday inn"))
 
 -------------------
 The Basics Of Menus
@@ -30,8 +32,10 @@ We are going to create a menu called ``Omar`` which calls these two functions.
 
 Type the following into your ``.emacs`` file and re-evaluate the buffer.
 
-| ``(define-key global-map [menu-bar omar]``
-|   ``(cons "Omar's Menu" (make-sparse-keymap "Omar")))``
+::
+
+ (define-key global-map [menu-bar omar]
+   (cons "Omar's Menu" (make-sparse-keymap "Omar")))
 
 You will see that this has created a new top-level menu at the left of the menu bar. It consists of the words *Omar's Menu*. There are no items below it.
 
@@ -63,16 +67,18 @@ We can make our menu do that by changing the definition from ``define-key`` to `
 
 Now lets make a proper menu. Type the following into your ``.emacs`` file and re-evaluate the buffer:
 
-| ``(define-key-after global-map [menu-bar omar]``
-|   ``(cons "Omar's Menu" (make-sparse-keymap "Omar")))``
-| ``(define-key global-map [menu-bar omar omar-hip]``
-|   ``'(menu-item "Hip" omar-hip``
-| 	      ``:help "Hip, yeah!"))``
-| ``(define-key global-map [menu-bar omar separator-replace-tags]``
-|   ``'(menu-item "--"))``
-| ``(define-key global-map [menu-bar omar omar-hotel]``
-|   ``'(menu-item "Hotel" omar-hotel``
-|      	      ``:help "Hotel, yeah!"))``
+::
+
+ (define-key-after global-map [menu-bar omar]
+   (cons "Omar's Menu" (make-sparse-keymap "Omar")))
+ (define-key global-map [menu-bar omar omar-hip]
+   '(menu-item "Hip" omar-hip
+ 	      :help "Hip, yeah!"))
+ (define-key global-map [menu-bar omar separator-replace-tags]
+   '(menu-item "--"))
+ (define-key global-map [menu-bar omar omar-hotel]
+   '(menu-item "Hotel" omar-hotel
+      	      :help "Hotel, yeah!"))
 
 Notice how we are adding menu-items down the array ``[menu-bar omar omar-hip]`` and so on and so forth.
 
@@ -82,17 +88,19 @@ Adding New Items To An Existing Menu
 
 Lets bind the two nonce functions to an existing menu. Clear out the menu definition code from your ``.emacs`` file and replace it with this:
 
-| ``(defvar menu-bar-omar-menu (make-sparse-keymap "Omar's Menu"))``
-| ``(define-key menu-bar-omar-menu [omar-hip]``
-|   ``'(menu-item "Hip" omar-hip``
-| 	      ``:help "Hip, yeah!"))``
-| ``(define-key menu-bar-omar-menu [separator-omar-1]``
-|   ``'(menu-item "--"))``
-| ``(define-key menu-bar-omar-menu [omar-hotel]``
-|   ``'(menu-item "Hotel" omar-hotel``
-|      	      ``:help "Hotel, yeah!"))``
-| ``(define-key menu-bar-edit-menu [omar]``
-|        ``(list 'menu-item "Omar Menu" menu-bar-omar-menu))``
+::
+
+ (defvar menu-bar-omar-menu (make-sparse-keymap "Omar's Menu"))
+ (define-key menu-bar-omar-menu [omar-hip]
+   '(menu-item "Hip" omar-hip
+ 	      :help "Hip, yeah!"))
+ (define-key menu-bar-omar-menu [separator-omar-1]
+   '(menu-item "--"))
+ (define-key menu-bar-omar-menu [omar-hotel]
+   '(menu-item "Hotel" omar-hotel
+      	      :help "Hotel, yeah!"))
+ (define-key menu-bar-edit-menu [omar]
+        (list 'menu-item "Omar Menu" menu-bar-omar-menu))
 
 Lets step through it line by line. The first line defines a new variable ``menu-bar-omar-menu``. Note that it has a conventional name. It is part of the *menu* system so it has the prefix ``menu-bar-``. The value of this variable is set to a *sparse keymap*. The entire input management system is built around datatypes called *keymaps*. A *sparse* keymap is just an empty unitialised one.
 
@@ -118,7 +126,9 @@ Keyboard Shortcuts
 
 Keyboard shortcuts are automatically added to menus if they exist. To try this out bind one of the functions to a key combination. Add a key binding to ``.emacs`` and revaluate the buffer.
 
-``(global-set-key [f5] 'omar-hip)``
+::
+
+ (global-set-key [f5] 'omar-hip)
 
 When you look at the menu now you should see the keyboard shortcut ``<f5>`` alonside the menu item *Hip*.
 
