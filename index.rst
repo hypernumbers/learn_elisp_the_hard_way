@@ -69,3 +69,4 @@ Learn eLisp For Emacs
 
    contents/lesson-5-1-elisp-in-files
    contents/lesson-5-2-working-with-buffers-1
+   contents/lesson-5-3-scope-of-variables-set-setq-let-etc
