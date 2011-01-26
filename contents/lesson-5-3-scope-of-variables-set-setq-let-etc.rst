@@ -43,6 +43,7 @@ Lets create a variable with *global scope*. Edit the file ``omar-menu.el`` in ``
 Add the line:
 
 ::
+
  (setq omars-kills 123)
 
 and then use the menu *Emacs-Lisp -> Evaluate Buffer* to execute that file again.
