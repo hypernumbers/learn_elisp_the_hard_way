@@ -20,7 +20,7 @@ If you have already mastered a 'conventional' Functional Programming language th
 * Erlang
 * Haskell
 
-(Of course the majority of the worlds 'programmers' are end-users who use the functional programming spreadsheet paradigm in Excel, Open Office or, natch, Hypernumbers. This book is not really aimed at end-user FP/spreadsheet 'programmers' either.) 
+(Of course the majority of the worlds 'programmers' are end-users who are pragmatic folks using Excel, Open Office or, natch, Hypernumbers. This book is not really aimed at end-user spreadsheet 'programmers' either.)
 
 ------------------------------
 How Much Experience Is Needed?
