@@ -20,7 +20,7 @@ By writing this book I hope to be able to write eLisp to configure and extend Em
 Why Choose This Format?
 -----------------------
 
-I have chosen to use a format based on *Learn X The Hard Way*. That format is specifically aimed at writing books for non-programmers. My target audience is programmes with no functional programming experiences. Funtional Programming Languages in general (and Lisp in particular) are far enough from Object Orientated or Procedural languages that learning then is like starting to programme again - so the *beginners* format is quite appropriate.
+I have chosen to use a format based on *Learn X The Hard Way*. That format is specifically aimed at writing books for non-programmers. My target audience is programmers with no functional programming experiences. Funtional Programming Languages in general (and Lisp in particular) are far enough from Object Orientated or Procedural languages that learning then is like starting to programme again - so the *beginners* format is quite appropriate.
 
 I have not called the book *Learn eLisp The Hard Way* because this slightly hybrid formula would confuse that core brand.
 
@@ -32,7 +32,7 @@ The transition from Fortran to the Obect Orientated paradigm of C++ was enormous
 
 I may be wrong, but I think that many experienced programmers who have no previous exposure to functional programming would benefit from a pretty brutal beginners style book about eLisp.
 
-I have copies of `On Lisp`_ by Paul Graham and `Common Lisp A Gentle Introduction To Symbolic Computing`_ but have never been able to learn Lisp because of the very basic problem that Zed Shaw identified in `his article`_ on *How To Write A LxTHW* - I could never work out how to get to a basic working shell to type the code examples into. It's not that I didn't try, its just that after a summer of trying to start learning Lisp I had gotten nowhere. If you think that that's my fault, then it falls to you to explain how I managed to learn a brazillian other languages succesfully.
+I have copies of `On Lisp`_ by Paul Graham and `Common Lisp A Gentle Introduction To Symbolic Computing`_ but have never been able to learn Lisp because of the very basic problem that Zed Shaw identified in `his article`_ on *How To Write A LxTHW* - I could never work out how to get to a basic working shell to type the code examples into. It's not that I didn't try, its just that after a summer of trying to start learning Lisp I had gotten nowhere. If you think that that's my fault, then it falls to you to explain how I managed to learn a bazillian other languages succesfully.
 
 The other appealing part of this format is that it isn't a reference book. To make clear just how unsuited I am to write a reference book about Lisp, let me enumerate ATTIDNK (All The Things I Do Not Know):
 
