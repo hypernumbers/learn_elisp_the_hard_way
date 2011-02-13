@@ -15,7 +15,7 @@ This lessons will look at the other sorts of data types in eLisp. There are two 
 * primitive data types
 * non-primitive data types
 
-The diference between them is that non-primitive data types can be assembled from primitive ones.
+The difference between them is that non-primitive data types can be assembled from primitive ones.
 
 The general set of primitive data types of eLisp are:
 
@@ -65,7 +65,7 @@ What This Lesson Will Cover
 This lesson will look at:
 
 * the representation of boolean values
-* the integer and float data types which were introduced ealier
+* the integer and float data types which were introduced earlier
 * the string data type
 * testing for data types
 * casting between values
@@ -74,7 +74,7 @@ This lesson will look at:
 Booleans
 --------
 
-Booleans represents *true* and *false*. 
+Booleans represent *true* and *false*. 
 
 :You Type: ``(= 1 1)``
 :Result: ``t``
@@ -122,7 +122,7 @@ We have seen string data types being used in the previous tests - strings are re
 :You Type: ``(concat "a`b" "c\"d")``
 :Result: ``"a'bc\"d"``
 
-The ``concat`` operator can a indefinite number of arguments.
+The ``concat`` operator can have a indefinite number of arguments.
 
 :You Type: ``(concat "ab" "cd" "ef" "12" "34" "45")``
 :Result: ``"abcdef123445"``
@@ -146,7 +146,7 @@ We see from this example that data types cast automatically. The sum of an integ
 Certain functions expect certain types - for instance ``+`` expects numbers as it parameters.
 
 :You Type: ``(+ 1 "two")``
-:Result: The functions throws an error and dumps you into the debugger.
+:Result: The function throws an error and dumps you into the debugger.
 
 This is in a window called \*backtrace\*. It is worth looking at the output in some detail.
 
