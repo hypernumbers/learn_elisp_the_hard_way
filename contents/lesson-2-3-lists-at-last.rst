@@ -10,7 +10,7 @@ Introduction
 
 eLisp is a dialect of Lisp - the LISt Processing language.
 
-You will have noticed that all the expressions we have used so far has been of the form ``(something somethingelse anotherthing)``. That basic form is a list - defined by the opening and closing brackets. All the expressions we have looked at so far have been the simplest sort of programmes - lists where the first element is an operator and the remaining elements are data. But a list can also be simple data.
+You will have noticed that all the expressions we have used so far have been of the form ``(something somethingelse anotherthing)``. That basic form is a list - defined by the opening and closing brackets. All the expressions we have looked at so far have been the simplest sort of programmes - lists where the first element is an operator and the remaining elements are data. But a list can also be simple data.
 
 ----------
 Data Lists
@@ -21,7 +21,7 @@ The eLisp interpreter has to be told that it is a data list. This is done by **q
 :You Type: ``'(1 2 3)``
 :Result: ``(1 2 3)``
 
-The apostrophe ``'`` is syntactic sugare for the quote operator which can be invoked like a normal operator:
+The apostrophe ``'`` is syntactic sugar for the quote operator which can be invoked like a normal operator:
 
 :You Type: ``(quote (1 2 3))``
 :Result: ``(1 2 3)``

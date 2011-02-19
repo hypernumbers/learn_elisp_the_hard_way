@@ -92,7 +92,7 @@ We can now see what ``defvar`` has done to the variable ``farmer_dell`` by evalu
 But if we ``defvar`` on ``do_tell`` it won't take:
 
 :You Type: ``(defvar do_tell 123)``
-:Return: ``do_tel``
+:Return: ``do_tell``
 
 and now evaluate ``do_tell``:
 
@@ -158,7 +158,7 @@ Property lists can be the *value* of a symbol and are associated with it by ``se
 
 But the symbol can also have its own *plist* which is created by the special function ``setplist``. (the symbol must already have been created.)
 
-:You Type: ``(setplist hotdog '(:rhubarb "custard" :status "borked"))``
+:You Type: ``(setplist 'hotdog '(:rhubarb "custard" :status "borked"))``
 :Return: ``(:rhubarb "custard" :status "borked")``
 
 However if we now evaluate the value of ``hotdog`` you will see that it is ``(:quality "great" :achievement "impressive")`` as that is the *value* we set previously:
