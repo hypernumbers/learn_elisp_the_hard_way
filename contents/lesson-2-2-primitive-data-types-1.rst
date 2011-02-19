@@ -98,7 +98,7 @@ You can read the if expression like this ``if t`` *is true then return* ``"it's 
 
 However booleans are not types. They are called *Constant Variables*.
 
-Handling *true/false* is not so simple however consider the following:
+Handling *true/false* is not so simple, however. Consider the following:
 
 :You Type: ``(if () "it's true" "it's false")``
 :Result:  ``"it's false"``
