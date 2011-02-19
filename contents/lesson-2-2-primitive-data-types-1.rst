@@ -101,7 +101,7 @@ However booleans are not types. They are called *Constant Variables*.
 Handling *true/false* is not so simple however consider the following:
 
 :You Type: ``(if () "it's true" "it's false")``
-:Result:  ``nil``
+:Result:  ``"it's false"``
 
 The empty list ``()`` is also a synomym for false. ``if``, however, follows the convention that *that which is not false is true* as we can see from the following:
 
