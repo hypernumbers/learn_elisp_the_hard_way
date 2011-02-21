@@ -11,6 +11,7 @@ Learn eLisp For Emacs
 
    contents/learning-elisp
    contents/why-did-I-write-this-book
+   contents/contributors
    contents/who-is-this-book-for
    contents/what-will-this-book-cover
    contents/references
