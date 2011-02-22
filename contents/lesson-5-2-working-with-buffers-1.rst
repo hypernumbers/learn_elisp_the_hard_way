@@ -82,7 +82,7 @@ You should see something like this:
 
 .. image :: /images/emacs-using-describe-function.png
 
-Lets add a proper function definition for our function. Edit `omarmenu.el`:
+Let's add a proper function definition for our function. Edit `omarmenu.el`:
 
 | ``(defun omar-count ()``
 |   ``(interactive)``
@@ -107,7 +107,7 @@ Now that we have the function wired in, lets make it do what it says on the tin.
 |      ``(setq count (1+ count)))``
 |    ``(message "Buffer has %d words." count)))``
 
-Lets see what this function does. It starts by defining a local variable `count` using the `let` operator. Note that the brackets which include `let` cover the whole rest of the function. We will look at local and global scope of variables in the next lesson.
+Let's see what this function does. It starts by defining a local variable `count` using the `let` operator. Note that the brackets which include `let` cover the whole rest of the function. We will look at local and global scope of variables in the next lesson.
 
 The next function call is ``(goto-char (point-min))``. We can use `describe-function` to work what that does. Executing *[M]-x* `describe-function` for `goto-char` and it prints the following:
 

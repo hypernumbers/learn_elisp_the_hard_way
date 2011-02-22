@@ -32,7 +32,7 @@ The transition from Fortran to the Obect Orientated paradigm of C++ was enormous
 
 I may be wrong, but I think that many experienced programmers who have no previous exposure to functional programming would benefit from a pretty brutal beginners style book about eLisp.
 
-I have copies of `On Lisp`_ by Paul Graham and `Common Lisp A Gentle Introduction To Symbolic Computing`_ but have never been able to learn Lisp because of the very basic problem that Zed Shaw identified in `his article`_ on *How To Write A LxTHW* - I could never work out how to get to a basic working shell to type the code examples into. It's not that I didn't try, its just that after a summer of trying to start learning Lisp I had gotten nowhere. If you think that that's my fault, then it falls to you to explain how I managed to learn a Brazilian other languages successfully.
+I have copies of `On Lisp`_ by Paul Graham and `Common Lisp A Gentle Introduction To Symbolic Computing`_ but have never been able to learn Lisp because of the very basic problem that Zed Shaw identified in `his article`_ on *How To Write A LxTHW* - I could never work out how to get to a basic working shell to type the code examples into. It's not that I didn't try, its just that after a summer of trying to start learning Lisp I had gotten nowhere. If you think that that's my fault, then it falls to you to explain how I managed to learn a bazillion other languages successfully.
 
 The other appealing part of this format is that it isn't a reference book. To make clear just how unsuited I am to write a reference book about Lisp, let me enumerate ATTIDNK (All The Things I Do Not Know):
 

@@ -43,7 +43,7 @@ Look carefully at the function definition. The third parameter of the list is th
 A Custom Function With User Input
 ---------------------------------
 
-Lets edit the function to take some parameters:
+Let's edit the function to take some parameters:
 
 ::
 

@@ -16,7 +16,7 @@ Emacs switches into a special mode for a particular programming language by look
 
 The modeline now contains the expression (Emacs-Lisp) which indicates that it is in *the Emacs Lisp Major Mode*. The menu bar now has an *Emacs-Lisp* menu.
 
-A new menu has appeared. Lets look at some of the commands on it. There are indenting commands that can be used to pretty up the source code and lay it out consistently. (*Indent Line* uses the [Tab] key to indent a line. Regions commands can be used on regions - blocks of code which have been selected by marking their starts with [Control][Space] and the moving the cursor point.
+A new menu has appeared. Let's look at some of the commands on it. There are indenting commands that can be used to pretty up the source code and lay it out consistently. (*Indent Line* uses the [Tab] key to indent a line. Regions commands can be used on regions - blocks of code which have been selected by marking their starts with [Control][Space] and the moving the cursor point.
 
 There are menu commands for evaluating expressions and the contents of the buffer as well as various profiling and tracing tools.
 

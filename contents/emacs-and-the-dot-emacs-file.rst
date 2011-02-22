@@ -6,15 +6,15 @@ Emacs And The .emacs File
 Introduction
 ------------
 
-We will be using the `.emacs` file a lot to get our functionality into Emacs. Emacs itself also uses the `.emacs` file. Lets see how it uses it.
+We will be using the `.emacs` file a lot to get our functionality into Emacs. Emacs itself also uses the `.emacs` file. Let's see how it uses it.
 
 --------------
 Saving Options
 --------------
 
-Emacs saves some of your options in the `.emacs` file. Lets change some options, save them and then see how they appear.
+Emacs saves some of your options in the `.emacs` file. Let's change some options, save them and then see how they appear.
 
-Lets start by clearing the `.emacs` file - open it in an editor, delete all the contents and save it. (You might want to copy it elsewhere if it has stuff in it you really care about).
+Start by clearing the `.emacs` file - open it in an editor, delete all the contents and save it. (You might want to copy it elsewhere if it has stuff in it you really care about).
 
 If you edited it in Emacs you will need to close Emacs and reopen it to 'lose' all your old configuration - if you edited it in an other editor, simply open Emacs.
 

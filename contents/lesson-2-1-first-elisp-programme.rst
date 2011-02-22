@@ -2,9 +2,9 @@
 Lesson 2-1 - First eLisp Programme
 ==================================
 
-----------------
-Lets Get Started
-----------------
+-----------------
+Let's Get Started
+-----------------
 
 This lesson will show you how to execute your first eLisp programme.
 
@@ -25,7 +25,7 @@ The programme that was executed consisted of an operator ``+`` and two constants
 
 The command ``Control-j`` in Emacs is applied at the point where the cursor is - it evaluates all the eLisp in the window up to that point and prints the output.
 
-Lets look at executing the same expression in a different way. Delete the expression in the \*scratch\* buffer and type in a new one.
+Let's look at executing the same expression in a different way. Delete the expression in the \*scratch\* buffer and type in a new one.
 
 :You Type: ``(+ 1.0 2.0)``
 

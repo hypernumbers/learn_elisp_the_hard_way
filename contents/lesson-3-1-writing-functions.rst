@@ -78,7 +78,7 @@ Functions With Variable Numbers Of Arguments
 
 We have seen that the function ``defun`` has variable arity - that is to say it can take 3 or 4 arguments - we will see later that it can actually take 5 parameters.
 
-Lets write a variable arity function:
+Let's write a variable arity function:
 
 ::
 
