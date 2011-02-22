@@ -41,7 +41,7 @@ Now put the cursor at the **end** of the expression and type ``Control-x Control
 
 :Result: In the window nothing will change by the value is now placed in the *minibuffer* ``1000.02``
 
-You can express floating point numbers in scientific notation
+You can express floating point numbers in scientific notation.
 
 ---------------------
 What You Have Learned
