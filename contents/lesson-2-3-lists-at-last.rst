@@ -80,7 +80,7 @@ You build a lists with ``cons`` like this:
 
 ``cons`` adds a new value to the start or *head* of a list. Note that the list to which you are adding it has to be quoted.
 
-You can split a list into two parts - the first value (the *head*) and the remaning ones (the *tail*). The head is extracted with ``car``:
+You can split a list into two parts - the first value (the *head*) and the remaining ones (the *tail*). The head is extracted with ``car``:
 
 :You Type: ``(car '(1 2 3))``
 :Result: ``1``

@@ -2,7 +2,7 @@
 Lesson 4-3 - Emacs Menus
 ========================
 
-**Prerequesite:** this lesson presumes you know how to use the ``.emacs`` file as outlined in Lessons 4-1 and 4-2.
+**Prerequisite:** this lesson presumes you know how to use the ``.emacs`` file as outlined in Lessons 4-1 and 4-2.
 
 ------------
 Introduction
@@ -102,7 +102,7 @@ Lets bind the two nonce functions to an existing menu. Clear out the menu defini
  (define-key menu-bar-edit-menu [omar]
         (list 'menu-item "Omar Menu" menu-bar-omar-menu))
 
-Lets step through it line by line. The first line defines a new variable ``menu-bar-omar-menu``. Note that it has a conventional name. It is part of the *menu* system so it has the prefix ``menu-bar-``. The value of this variable is set to a *sparse keymap*. The entire input management system is built around datatypes called *keymaps*. A *sparse* keymap is just an empty unitialised one.
+Lets step through it line by line. The first line defines a new variable ``menu-bar-omar-menu``. Note that it has a conventional name. It is part of the *menu* system so it has the prefix ``menu-bar-``. The value of this variable is set to a *sparse keymap*. The entire input management system is built around datatypes called *keymaps*. A *sparse* keymap is just an empty uninitialised one.
 
 The next three lines add elements to the sparse keymap. The first and third items are normal menu items, the second is a separator.
 
@@ -124,13 +124,13 @@ Notice how we built this menu in a different way - creating a new keymap, adding
 Keyboard Shortcuts
 ------------------
 
-Keyboard shortcuts are automatically added to menus if they exist. To try this out bind one of the functions to a key combination. Add a key binding to ``.emacs`` and revaluate the buffer.
+Keyboard shortcuts are automatically added to menus if they exist. To try this out bind one of the functions to a key combination. Add a key binding to ``.emacs`` and reevaluate the buffer.
 
 ::
 
  (global-set-key [f5] 'omar-hip)
 
-When you look at the menu now you should see the keyboard shortcut ``<f5>`` alonside the menu item *Hip*.
+When you look at the menu now you should see the keyboard shortcut ``<f5>`` alongside the menu item *Hip*.
 
 ---------------------
 What You Have Learned

@@ -2,7 +2,7 @@
 Lesson 2-4 - Symbols And Variables
 ==================================
 
-**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
+**Prerequisite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
 
 ----------------
 Symbols Overview
@@ -79,7 +79,7 @@ We can now use this variable in an expression:
 :You Type: ``(+ do_tell 33)``
 :Return: ``55``
 
-There is a variant on ``set`` and ``setq`` called ``defvar`` that defines a variable. It is different from them in that it only applies to unitialised variables. If a variable is already defined it won't overwrite it.
+There is a variant on ``set`` and ``setq`` called ``defvar`` that defines a variable. It is different from them in that it only applies to uninitialised variables. If a variable is already defined it won't overwrite it.
 
 :You Type: ``(defvar farmer_dell 123)``
 :Return: ``farmer_dell``

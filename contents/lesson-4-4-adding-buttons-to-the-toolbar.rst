@@ -2,7 +2,7 @@
 Lesson 4-4 - Adding Buttons To The Tool-bar
 ===========================================
 
-**Prerequesite:** this lesson presumes you know how to use the ``.emacs`` file as outlined in Lessons 4-1 and 4-2.
+**Prerequisite:** this lesson presumes you know how to use the ``.emacs`` file as outlined in Lessons 4-1 and 4-2.
 
 ------------
 Introduction

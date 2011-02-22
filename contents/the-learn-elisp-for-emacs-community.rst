@@ -6,7 +6,7 @@ The Learn eLisp For Emacs Community
 License
 -------
 
-When this book is finished it will be released under a Creative Commons License. At the moment is remain copyright Gordon Guthrie (2010). Until it has been finsihed you MAY NOT redistribute it but may participate in the community development of the text by forking the git repository.
+When this book is finished it will be released under a Creative Commons License. At the moment is remain copyright Gordon Guthrie (2010). Until it has been finished you MAY NOT redistribute it but may participate in the community development of the text by forking the git repository.
 
 -----------
 eMail Group

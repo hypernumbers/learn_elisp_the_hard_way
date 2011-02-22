@@ -14,4 +14,4 @@ It assumes that the reader can get a clean install of Ubuntu GNU/Linux up and ru
 How This Book Teaches eLisp
 ---------------------------
 
-This book teaches eLisp throught the medium of Emacs. Emacs has a *scratch* window in which arbitrary eLisp expressions can be evaluated. Initial lessons will use the *scratch* window. Later lessons will move on to creating external lisp files and loading them into Emacs to use them.
+This book teaches eLisp through the medium of Emacs. Emacs has a *scratch* window in which arbitrary eLisp expressions can be evaluated. Initial lessons will use the *scratch* window. Later lessons will move on to creating external lisp files and loading them into Emacs to use them.

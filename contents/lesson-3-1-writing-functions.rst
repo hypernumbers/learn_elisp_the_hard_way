@@ -43,7 +43,7 @@ On executing this file the output will be:
 
  Bonjour Tout Le Monde
 
-Lets understand what we are seeing. Consider the first line - the operator ``defun`` indicates that we are defining a function. Here it is taking 3 parameters:
+Let's understand what we are seeing. Consider the first line - the operator ``defun`` indicates that we are defining a function. Here it is taking 3 parameters:
 
 | *1* ``bonjour`` which is the name of the function
 | *2* ``()`` which is a list of the parameters that the function will take
@@ -55,7 +55,7 @@ The second line simply executes the fuction ``bonjour``. The function definition
 Defining A More Complex Function
 --------------------------------
 
-Lets create a function that takes multiple arguments:
+Let's create a function that takes multiple arguments:
 
 ::
 

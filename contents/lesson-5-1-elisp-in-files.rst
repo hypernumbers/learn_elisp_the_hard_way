@@ -97,6 +97,6 @@ You have learned:
 Additional Reading
 ------------------
 
-There is a slightly more to loading code in eLisp which is descriped in the `Loading Code`_ section of the eLisp Reference Manual.
+There is a slightly more to loading code in eLisp which is described in the `Loading Code`_ section of the eLisp Reference Manual.
 
 .. _Loading Code: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/How-Programs-Do-Loading.html#How-Programs-Do-Loading

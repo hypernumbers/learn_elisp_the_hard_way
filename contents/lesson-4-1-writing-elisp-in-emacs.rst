@@ -6,11 +6,11 @@ Lesson 4-1 - Writing eLisp In Emacs
 Introduction
 ------------
 
-Emacs as an editor provides a host of specific tools to help software developers in a wide range of languages. Not suprisingly the support for the eLisp language in Emacs is very good.
+Emacs as an editor provides a host of specific tools to help software developers in a wide range of languages. Not surprisingly the support for the eLisp language in Emacs is very good.
 
 This lesson will explore Emacs as an editor for eLisp.
 
-Emacs switches into a special mode for a particular programming language by looking at the extension on the filename - the exension for eLisp is ``.el``. If you create a file called *something*.el and open it with Emacs you will see that the editor has changed itself.
+Emacs switches into a special mode for a particular programming language by looking at the extension on the filename - the extension for eLisp is ``.el``. If you create a file called *something*.el and open it with Emacs you will see that the editor has changed itself.
 
 .. image :: /images/emacs-lisp.png
 
@@ -20,7 +20,7 @@ A new menu has appeared. Lets look at some of the commands on it. There are inde
 
 There are menu commands for evaluating expressions and the contents of the buffer as well as various profiling and tracing tools.
 
-If you execute expressions now, the operator ``message`` will now ouput to the *minibuffer* at the bottom of Emacs.
+If you execute expressions now, the operator ``message`` will now output to the *minibuffer* at the bottom of Emacs.
 
 One of the most important features in the debugger - which is triggered when you instrument a function for debugging using the menu command *Instrument Functions for Debugger*.
 

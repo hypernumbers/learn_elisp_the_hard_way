@@ -176,7 +176,7 @@ What You Have Learned
 You have learned:
 
 * how to build and plumb in a function from end-to-end
-* how to interograte source code in eLisp to try and work out what things do
+* how to interrogate source code in eLisp to try and work out what things do
 * some basic cursor operations
 * how to restore the users state once you have manipulated it
 

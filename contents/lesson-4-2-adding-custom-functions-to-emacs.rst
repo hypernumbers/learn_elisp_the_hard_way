@@ -64,7 +64,7 @@ When you run this version of the function with *[Alt][x]doodlebug* it will offer
 
 As you type in a string at each prompt (ending with *[Return]*) each of the strings wll be bound to the variables ``a``, ``b`` and ``c`` in turn.
 
-This behaviour in enabled by the new form of the *interactive* expresion. The string which has been added to that expression consists of 6 seperate components:
+This behaviour in enabled by the new form of the *interactive* expression. The string which has been added to that expression consists of 6 separate components:
 
 ::
 
@@ -121,7 +121,7 @@ What You Have Learned
 You have learned:
 
 * a way to load a new function into emacs
-* how to make the function take interactive paramters
+* how to make the function take interactive paramaters
 * how to invoke that command - via the command line and via a custom key
 
 ------------------

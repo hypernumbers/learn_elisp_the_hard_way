@@ -34,7 +34,7 @@ The Extra Activities section will cover functions that operate on sequences.
 Why Arrays And Not Lists?
 -------------------------
 
-The difference betweeen arrays and lists is that arrays have fixed lengths and lists have variable length. This gives them different performance characteristics - array elements are accessible in constant time, whereas the access time for lists is proportional to their length.
+The difference between arrays and lists is that arrays have fixed lengths and lists have variable length. This gives them different performance characteristics - array elements are accessible in constant time, whereas the access time for lists is proportional to their length.
 
 --------------------------------------
 Difference Between Strings And Vectors
@@ -52,7 +52,7 @@ Arrays are 1 dimensional only. Given that the elements of a vector can consist o
 Creating Arrays
 ---------------
 
-A array is delimied by square brackets (``[`` and ``]``). You can create them inline:
+A array is delimited by square brackets (``[`` and ``]``). You can create them inline:
 
 :You Type: ``[1 2 3]``
 :Return: ``[1 2 3]``
