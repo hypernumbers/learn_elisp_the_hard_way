@@ -2,7 +2,7 @@
 Lesson 2-4 - Symbols And Variables
 ==================================
 
-**Prerequisite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
+**Prerequisite:** This lesson presumes you know how to invoke Elisp expression as shown in Lesson 2-1.
 
 ----------------
 Symbols Overview
@@ -30,7 +30,7 @@ Symbols can be the name of functions (or operators). We will look into how these
 Symbols As Variables
 --------------------
 
-Instances of Data Types evaluate to themselves in eLisp:
+Instances of Data Types evaluate to themselves in Elisp:
 
 :You Type: ``9``
 :Result: ``9``
@@ -40,7 +40,7 @@ You can evaluate Symbols similarly
 :You Type: ``fill-column``
 :Result: ``70``
 
-(It might not be ``70`` - but it probably will be). ``fill-column`` is a variable in eLisp with global scope. Later on we will see how this sort of variable will be used and have its value changed.
+(It might not be ``70`` - but it probably will be). ``fill-column`` is a variable in Elisp with global scope. Later on we will see how this sort of variable will be used and have its value changed.
 
 Variables don't just exist with default values. If you try and use a random symbol in an expression it will fail.
 
@@ -69,7 +69,7 @@ If we now evaluate the ``do_tell`` it no longer throws an error:
 :You Type: ``do_tell``
 :Result: ``11``
 
-Notice that when the value of ``do_tell`` was set ``do_tell`` was quoted viz ``'do_tell``.  The quoting says to eLisp "*don't treat do_tell as a variable is a value to be passed to the operator set*". The operator ``setq`` just *absorbs* that quote and lets you not quote the first parameter.
+Notice that when the value of ``do_tell`` was set ``do_tell`` was quoted viz ``'do_tell``.  The quoting says to Elisp "*don't treat do_tell as a variable is a value to be passed to the operator set*". The operator ``setq`` just *absorbs* that quote and lets you not quote the first parameter.
 
 :You Type: ``(setq do_tell '22)``
 :Return: ``22``
@@ -134,7 +134,7 @@ You have learned how to set values of Symbols and then reuse those symbols in ex
 Additional Reading
 ------------------
 
-Symbols in eLisp are a bit more complex than symbols in other languages - there is a discussion of `Symbols`_ in the *Introduction To Emacs Lisp* manual.
+Symbols in Elisp are a bit more complex than symbols in other languages - there is a discussion of `Symbols`_ in the *Introduction To Emacs Lisp* manual.
 
 You can read about `Symbol Properties`_ in the *Emacs Lisp Reference* manual.
 
@@ -168,6 +168,6 @@ However if we now evaluate the value of ``hotdog`` you will see that it is ``(:q
 
 What happens if you try and set the property list of an undefined symbol?
 
-.. _Symbols: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Symbol-Components.html#Symbol-Components
+.. _Symbols: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/Symbol-Components.html#Symbol-Components
 
-.. _Symbol Properties: http://www.gnu.org/software/emacs/elisp/html_node/Symbol-Plists.html#Symbol-Plists
+.. _Symbol Properties: http://www.gnu.org/software/emacs/Elisp/html_node/Symbol-Plists.html#Symbol-Plists

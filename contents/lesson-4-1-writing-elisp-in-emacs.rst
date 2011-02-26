@@ -1,16 +1,16 @@
 ===================================
-Lesson 4-1 - Writing eLisp In Emacs
+Lesson 4-1 - Writing Elisp In Emacs
 ===================================
 
 ------------
 Introduction
 ------------
 
-Emacs as an editor provides a host of specific tools to help software developers in a wide range of languages. Not surprisingly the support for the eLisp language in Emacs is very good.
+Emacs as an editor provides a host of specific tools to help software developers in a wide range of languages. Not surprisingly the support for the Elisp language in Emacs is very good.
 
-This lesson will explore Emacs as an editor for eLisp.
+This lesson will explore Emacs as an editor for Elisp.
 
-Emacs switches into a special mode for a particular programming language by looking at the extension on the filename - the extension for eLisp is ``.el``. If you create a file called *something*.el and open it with Emacs you will see that the editor has changed itself.
+Emacs switches into a special mode for a particular programming language by looking at the extension on the filename - the extension for Elisp is ``.el``. If you create a file called *something*.el and open it with Emacs you will see that the editor has changed itself.
 
 .. image :: /images/emacs-lisp.png
 
@@ -28,7 +28,7 @@ One of the most important features in the debugger - which is triggered when you
 
 Detailed instructions on using the Emacs debugger can be found in the `Emacs Manual`_
 
-Load an eLisp file, and execute it under the debugger. The diagram below shows it working. You can step through the code line-by-line. The debugger shows the values of the last expression executed in the minibuffer at the bottom. In the picture the last expression executed is ``a`` (as shown by the debugger cursor which is placed after it) - its current value (``7``) is shown in the minibuffer.
+Load an Elisp file, and execute it under the debugger. The diagram below shows it working. You can step through the code line-by-line. The debugger shows the values of the last expression executed in the minibuffer at the bottom. In the picture the last expression executed is ``a`` (as shown by the debugger cursor which is placed after it) - its current value (``7``) is shown in the minibuffer.
 
 .. image :: /images/emacs-debugger2.png
 
@@ -46,4 +46,4 @@ Extra Activities
 
 Run the menu item *Check Document Strings* in the *Emacs-Lisp* menu - can you work out what does the operator ``provide`` does?
 
-.. _Emacs Manual: http://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Edebug.html#Using-Edebug
+.. _Emacs Manual: http://www.gnu.org/software/emacs/manual/html_node/Elisp/Using-Edebug.html#Using-Edebug

@@ -1,5 +1,5 @@
 ===================================
-The Learn eLisp For Emacs Community
+The Learn Elisp For Emacs Community
 ===================================
 
 -------
@@ -26,8 +26,8 @@ Website
 
 This book has an `Official Website`_.
 
-.. _Mailing List: http://groups.google.com/group/learn-elisp-for-emacs
+.. _Mailing List: http://groups.google.com/group/learn-Elisp-for-emacs
 
-.. _Public Git Repository: https://github.com/hypernumbers/learn_elisp_the_hard_way
+.. _Public Git Repository: https://github.com/hypernumbers/learn_Elisp_the_hard_way
 
-.. _Official Website: http://learn-elisp-for-emacs.org/
+.. _Official Website: http://learn-Elisp-for-emacs.org/

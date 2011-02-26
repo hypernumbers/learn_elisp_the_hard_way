@@ -6,7 +6,7 @@ What This Book Will Cover?
 What's In
 ---------
 
-This book will cover enough eLisp to enable you to:
+This book will cover enough Elisp to enable you to:
 
 * understand ``.emacs`` files
 * write your own functions to put in ``.emacs`` files

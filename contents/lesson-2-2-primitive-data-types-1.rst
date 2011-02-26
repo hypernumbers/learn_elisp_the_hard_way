@@ -2,7 +2,7 @@
 Lesson 2-2 - Primitive Data Types (1)
 =====================================
 
-**Prerequisite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
+**Prerequisite:** This lesson presumes you know how to invoke Elisp expression as shown in Lesson 2-1.
 
 -------
 Context
@@ -10,14 +10,14 @@ Context
 
 The previous lessons looked at performing basic arithmetic operations on various sorts of numbers.
 
-This lessons will look at the other sorts of data types in eLisp. There are two different sorts of data types:
+This lessons will look at the other sorts of data types in Elisp. There are two different sorts of data types:
 
 * primitive data types
 * non-primitive data types
 
 The difference between them is that non-primitive data types can be assembled from primitive ones.
 
-The general set of primitive data types of eLisp are:
+The general set of primitive data types of Elisp are:
 
 * integer
 * float
@@ -39,7 +39,7 @@ The general set of primitive data types of eLisp are:
 
 These primitive data types largely correspond to the primitive data types of other Lisps.
 
-In addition eLisp has a number of data types that are peculiar to it, because they pertain to the fact that eLisp is the scripting language of an editor. These data types are:
+In addition Elisp has a number of data types that are peculiar to it, because they pertain to the fact that Elisp is the scripting language of an editor. These data types are:
 
 * buffer
 * marker
@@ -166,7 +166,7 @@ The first line of this give us some details of the problem, it is a Lisp error -
 Converting Between Data Types
 -----------------------------
 
-Sometimes eLisp converts between data types. Consider mixed arithmetic with integers and floating point numbers:
+Sometimes Elisp converts between data types. Consider mixed arithmetic with integers and floating point numbers:
 
 :You Type: ``(+ 1 2.5)``
 :Result: ``3.5``
@@ -220,4 +220,4 @@ What do the following functions do:
 * ``ceiling``
 * ``floor``
 
-.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Lisp-Data-Types.html#Lisp-Data-Types
+.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/Lisp-Data-Types.html#Lisp-Data-Types

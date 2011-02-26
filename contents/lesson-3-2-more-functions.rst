@@ -2,7 +2,7 @@
 Lesson 3-2 - More Functions
 ===========================
 
-**Prerequisite:** This lesson presumes you know how to invoke eLisp expression as scripts as shown in Lesson 3-1.
+**Prerequisite:** This lesson presumes you know how to invoke Elisp expression as scripts as shown in Lesson 3-1.
 
 ------------
 Introduction

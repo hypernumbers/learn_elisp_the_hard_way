@@ -27,7 +27,7 @@ A dialog box entitled `Applying Changes` will appear. When the changes have been
 How This Book Will Work
 -----------------------
 
-The work on learning eLisp will take place within an X-Windows enabled version of Emacs as shown below.
+The work on learning Elisp will take place within an X-Windows enabled version of Emacs as shown below.
 
 .. image :: /images/emacs.png
 

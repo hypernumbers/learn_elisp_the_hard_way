@@ -6,7 +6,7 @@ Lesson 4-2 - Adding Custom Functions To Emacs
 Introduction
 ------------
 
-In order to run custom eLisp functions it is necessary to have them loaded into Emacs at run time.
+In order to run custom Elisp functions it is necessary to have them loaded into Emacs at run time.
 
 On load time emacs executes a startup file. In Emacs-23 on Ubuntu 10.10 this is a file called ``.emacs`` in your home directory.
 
@@ -142,8 +142,8 @@ Experiment with other Interactive Codes in your functions.
 
 Bind and unbind some keys to functions in your ``.emacs`` file.
 
-.. _Interactive Codes: http://www.gnu.org/software/emacs/elisp/html_node/Interactive-Codes.html#Interactive-Codes
+.. _Interactive Codes: http://www.gnu.org/software/emacs/Elisp/html_node/Interactive-Codes.html#Interactive-Codes
 
 .. _Key Bindings: http://www.gnu.org/software/emacs/emacs-lisp-intro/html_node/Keybindings.html#Keybindings
 
-.. _Keymaps: http://www.gnu.org/s/emacs/manual/html_node/elisp/Keymaps.html#Keymaps
+.. _Keymaps: http://www.gnu.org/s/emacs/manual/html_node/Elisp/Keymaps.html#Keymaps

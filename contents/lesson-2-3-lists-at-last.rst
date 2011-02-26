@@ -2,13 +2,13 @@
 Lesson 2-3 - Lists (At Last)
 ============================
 
-**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
+**Prerequesite:** This lesson presumes you know how to invoke Elisp expression as shown in Lesson 2-1.
 
 ------------
 Introduction
 ------------
 
-eLisp is a dialect of Lisp - the LISt Processing language.
+Elisp is a dialect of Lisp - the LISt Processing language.
 
 You will have noticed that all the expressions we have used so far have been of the form ``(something somethingelse anotherthing)``. That basic form is a list - defined by the opening and closing brackets. All the expressions we have looked at so far have been the simplest sort of programmes - lists where the first element is an operator and the remaining elements are data. But a list can also be simple data.
 
@@ -16,7 +16,7 @@ You will have noticed that all the expressions we have used so far have been of 
 Data Lists
 ----------
 
-The eLisp interpreter has to be told that it is a data list. This is done by **quoting** it with a single quote.
+The Elisp interpreter has to be told that it is a data list. This is done by **quoting** it with a single quote.
 
 :You Type: ``'(1 2 3)``
 :Result: ``(1 2 3)``

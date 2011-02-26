@@ -1,12 +1,12 @@
 ===========================
-Lesson 5-1 - eLisp In Files
+Lesson 5-1 - Elisp In Files
 ===========================
 
 ------------
 Introduction
 ------------
 
-So far we have created emacs functions in the ``.emacs`` file and attached that to menu-bar and the like. This is a bit sub-optimal. To use eLisp properly we should package up functionality into files and make it easy for them to be added to emacs.
+So far we have created emacs functions in the ``.emacs`` file and attached that to menu-bar and the like. This is a bit sub-optimal. To use Elisp properly we should package up functionality into files and make it easy for them to be added to emacs.
 
 Emacs loads files from various libraries. It used a global variable called ``load-path`` to work out where to load them from.
 
@@ -20,7 +20,7 @@ Your install of emacs will dump out loads of directories:
 
 For a shared production package (ie one that everyone on a particular machine will need access to) the install directory would be somewhere in the shared path space (ie a directory like ``/usr/share/emacs23/site-lisp/``). The convention is that there are ``site-lisp`` directories for all versions of Emacs as well a for specific versions. Upgrades of the base Emacs operator can cause some packages to fail.
 
-For this lesson we will store our eLisp files locally. Conventionally this is done in a directory called ``.emacs.d``. Best practice says that we don't not add ``.emacs.d`` to the ``load-path``, but we can create a sub-directory under that and add it.
+For this lesson we will store our Elisp files locally. Conventionally this is done in a directory called ``.emacs.d``. Best practice says that we don't not add ``.emacs.d`` to the ``load-path``, but we can create a sub-directory under that and add it.
 
 Create a subdirectory called ``omars-dir`` in ``~/.emacs.d/`` and inside that create a file called ``myomar.el``.
 
@@ -97,6 +97,6 @@ You have learned:
 Additional Reading
 ------------------
 
-There is a slightly more to loading code in eLisp which is described in the `Loading Code`_ section of the eLisp Reference Manual.
+There is a slightly more to loading code in Elisp which is described in the `Loading Code`_ section of the Elisp Reference Manual.
 
-.. _Loading Code: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/How-Programs-Do-Loading.html#How-Programs-Do-Loading
+.. _Loading Code: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/How-Programs-Do-Loading.html#How-Programs-Do-Loading

@@ -3,16 +3,16 @@ Lesson 3-1 - Writing Functions
 ==============================
 
 -----------------
-Script Mode eLisp
+Script Mode Elisp
 -----------------
 
-In order to write functions it is necessary to change the way in which eLisp expressions will be evaluated. Instead of invoking expressions in the \*scratch\* buffer it is time to switch to running eLisp as a script. 
+In order to write functions it is necessary to change the way in which Elisp expressions will be evaluated. Instead of invoking expressions in the \*scratch\* buffer it is time to switch to running Elisp as a script. 
 
-To do this an eLisp file has to be invoked from the command line. If you had some eLisp expressions in a file called *first_programme.el* the following command would be run it as a script ``emacs --no-site-file --script first_programme.el``
+To do this an Elisp file has to be invoked from the command line. If you had some Elisp expressions in a file called *first_programme.el* the following command would be run it as a script ``emacs --no-site-file --script first_programme.el``
 
-The option ``--no-site-file`` means that emacs doesn't load any eLisp from the site libraries. By default the ``--script`` option also includes option ``--no-init-file``. Normally emacs starts and executes a init file. In Ubuntu this file is ``.emacs`` in the users home directory.
+The option ``--no-site-file`` means that emacs doesn't load any Elisp from the site libraries. By default the ``--script`` option also includes option ``--no-init-file``. Normally emacs starts and executes a init file. In Ubuntu this file is ``.emacs`` in the users home directory.
 
-Start by creating a new directory, and in that create a file called *message.el*. The contents of that file is a single eLisp expression:
+Start by creating a new directory, and in that create a file called *message.el*. The contents of that file is a single Elisp expression:
 
 ::
 
@@ -130,13 +130,13 @@ The important part of this is the first part of the function definition ``(defun
 What You Have Learned
 ---------------------
 
-You have learned how to run eLisp programmes in batch mode, and also how to define simple, more complex and variable arity functions and invoke them.
+You have learned how to run Elisp programmes in batch mode, and also how to define simple, more complex and variable arity functions and invoke them.
 
 ------------------
 Additional Reading
 ------------------
 
-There is a section of the eLisp Reference Manual entitled `Functions`_.
+There is a section of the Elisp Reference Manual entitled `Functions`_.
 
 ----------------
 Extra Activities
@@ -147,5 +147,5 @@ Write a function with multiple line documentation.
 The *required*, *optional* and *rest* clauses must be specified in that order. Can you work out why? 
 
 
-.. _Functions: http://www.gnu.org/software/emacs/elisp/html_node/Functions.html#Functions
+.. _Functions: http://www.gnu.org/software/emacs/Elisp/html_node/Functions.html#Functions
 

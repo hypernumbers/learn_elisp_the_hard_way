@@ -2,15 +2,15 @@
 Lesson 2-5 - Arrays (And Sequences)
 ===================================
 
-**Prerequesite:** This lesson presumes you know how to invoke eLisp expression as shown in Lesson 2-1.
+**Prerequesite:** This lesson presumes you know how to invoke Elisp expression as shown in Lesson 2-1.
 
 ------------
 Introduction
 ------------
 
-We have seen *lists* in eLisp. Lists are an example of a *sequence* - a load of things stored in another thing which we can access sequentially.
+We have seen *lists* in Elisp. Lists are an example of a *sequence* - a load of things stored in another thing which we can access sequentially.
 
-There is another type of *sequence* in eLisp - an *array*. Arrays themselves come in 2 flavours:
+There is another type of *sequence* in Elisp - an *array*. Arrays themselves come in 2 flavours:
 
 * strings
 * vectors
@@ -40,13 +40,13 @@ The difference between arrays and lists is that arrays have fixed lengths and li
 Difference Between Strings And Vectors
 --------------------------------------
 
-In eLisp a string is simply an array whose elements consists of the integers which represent unicode points. A vector is a general array whose elements are any valid eLisp term.
+In Elisp a string is simply an array whose elements consists of the integers which represent unicode points. A vector is a general array whose elements are any valid Elisp term.
 
 -------------------
 Why Only 1D Arrays?
 -------------------
 
-Arrays are 1 dimensional only. Given that the elements of a vector can consist of other valid eLisp symbol, multi-dimensional arrays can be implemented as vectors of vectors.
+Arrays are 1 dimensional only. Given that the elements of a vector can consist of other valid Elisp symbol, multi-dimensional arrays can be implemented as vectors of vectors.
 
 ---------------
 Creating Arrays

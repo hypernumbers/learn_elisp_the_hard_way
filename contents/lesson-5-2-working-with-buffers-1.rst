@@ -6,22 +6,22 @@ Lesson 5-2 - Working With Buffers (1)
 Introduction
 ------------
 
-We need to learn how to programme eLisp a bit better, and the best way to do that is to write some programmes that add functionality to Emacs itself.
+We need to learn how to programme Elisp a bit better, and the best way to do that is to write some programmes that add functionality to Emacs itself.
 
 In this lesson we are going to:
 
 * add a menu to Emacs
 * call functions from that menu which operate on the current buffer
 
-To do that we will create a file of eLisp which will:
+To do that we will create a file of Elisp which will:
 
 * define some functions
 * add an Emacs menu bound to those functions
 
-We will then edit the `.emacs` file to load our eLisp file at start up.
+We will then edit the `.emacs` file to load our Elisp file at start up.
 
 ------------------------
-Preparing Our eLisp File
+Preparing Our Elisp File
 ------------------------
 
 Create a new file called ``omarmenu.el`` in the directory ``~/.emacs.d/omars-dir/`` and type the following code in:
@@ -57,7 +57,7 @@ We have then created a menu called *Omar's Menu* with one item *Count*. We have 
 
 Finally ``omarmenu.el`` announes to the world that it provied ``omarmenu``.
 
-We have then edited the ``.emacs`` file telling it to look for eLisp programmes in the directory ``~/.emacs.d/omars-dir/`` and asking it to load the functionality of ``omarmenu``.
+We have then edited the ``.emacs`` file telling it to look for Elisp programmes in the directory ``~/.emacs.d/omars-dir/`` and asking it to load the functionality of ``omarmenu``.
 
 If you have been editing these files (or any files) in Emacs then close it and reopen it.
 
@@ -176,7 +176,7 @@ What You Have Learned
 You have learned:
 
 * how to build and plumb in a function from end-to-end
-* how to interrogate source code in eLisp to try and work out what things do
+* how to interrogate source code in Elisp to try and work out what things do
 * some basic cursor operations
 * how to restore the users state once you have manipulated it
 

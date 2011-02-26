@@ -1,12 +1,12 @@
 ======================================
-Best Practice 1 - Writing Better eLisp
+Best Practice 1 - Writing Better Elisp
 ======================================
 
 ------------
 Introduction
 ------------
 
-So far we have knocked up quick'n'dirty eLisp. As we get deeper into writing eLisp it is important to start following best practices to try and make sure our code is clean, good and easy to maintain.
+So far we have knocked up quick'n'dirty Elisp. As we get deeper into writing Elisp it is important to start following best practices to try and make sure our code is clean, good and easy to maintain.
 
 Best practices will be introduced in small chapters like this.
 
@@ -14,7 +14,7 @@ Best practices will be introduced in small chapters like this.
 Avoiding Name Space Collisions
 ------------------------------
 
-Emacs (and the eLisp it is written in) uses a lot of global state to manage itself. One of the problems with global state is that it can lead to developers accidentally overwriting other peoples function definitions and variables through name space collisions.
+Emacs (and the Elisp it is written in) uses a lot of global state to manage itself. One of the problems with global state is that it can lead to developers accidentally overwriting other peoples function definitions and variables through name space collisions.
 
 When writing custom code for Emacs you should choose a name that describes what you are doing and use that as a prefix on all your variable and function definitions.
 
@@ -41,8 +41,8 @@ We will follow these conventions.
 Additional Reading
 ------------------
 
-There are more `Coding Conventions`_ for writing eLisp additional and rules about `Key-Binding Conventions`_ in the *Emacs Lisp Reference Manual*.
+There are more `Coding Conventions`_ for writing Elisp additional and rules about `Key-Binding Conventions`_ in the *Emacs Lisp Reference Manual*.
 
-.. _Coding Conventions: http://www.gnu.org/software/emacs/elisp/html_node/Coding-Conventions.html#Coding-Conventions
+.. _Coding Conventions: http://www.gnu.org/software/emacs/Elisp/html_node/Coding-Conventions.html#Coding-Conventions
 
-.. _Key-Binding Conventions: http://www.gnu.org/s/emacs/manual/html_node/elisp/Key-Binding-Conventions.html#Key-Binding-Conventions
+.. _Key-Binding Conventions: http://www.gnu.org/s/emacs/manual/html_node/Elisp/Key-Binding-Conventions.html#Key-Binding-Conventions

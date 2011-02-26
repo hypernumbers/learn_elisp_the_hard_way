@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Learn eLisp For Emacs build configuration file, created by
+# Learn ELisp For Emacs build configuration file, created by
 # sphinx-quickstart on Sat Nov  6 22:31:37 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -37,7 +37,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Learn eLisp For Emacs (Draft In Progress)'
+project = u'Learn Elisp For Emacs (Draft In Progress)'
 copyright = u'2010, Gordon Guthrie'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -123,7 +123,7 @@ html_theme_options = {"rightsidebar": "false",
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Learn eLisp For Emacs (Draft In Progress)'
+html_title = 'Learn Elisp For Emacs (Draft In Progress)'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -178,7 +178,7 @@ html_show_sourcelink = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Learn-eLisp-For-Emacsdoc'
+htmlhelp_basename = 'Learn-Elisp-For-Emacsdoc'
 
 # -- Options for LaTeX output --------------------------------------------------
 
@@ -191,7 +191,7 @@ htmlhelp_basename = 'Learn-eLisp-For-Emacsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Learn-eLisp-For-Emacs.tex', u'Learn eLisp For Emacs',
+  ('index', 'Learn-Elisp-For-Emacs.tex', u'Learn Elisp For Emacs',
    u'Gordon Guthrie', 'manual'),
 ]
 

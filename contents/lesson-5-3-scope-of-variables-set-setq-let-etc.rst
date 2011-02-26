@@ -2,7 +2,7 @@
 Lesson 5-3 - Scope Of Variables (set, setq, let etc)
 ====================================================
 
-We have seen that eLisp has some variables that *appear* global in scope. We looked at the variable ``fill-column`` in lesson 2-4 and it appeared to one such.
+We have seen that Elisp has some variables that *appear* global in scope. We looked at the variable ``fill-column`` in lesson 2-4 and it appeared to one such.
 
 If we evaluate ``fill-column`` in *\*scratch\** we get the value:
 
@@ -32,13 +32,13 @@ But if we use ``describe-variable`` to see the definition of ``fill-column`` it 
 
 The thing that should get your eyebrows raised is the phrase *buffer-local*. What this means is that ``fill-column`` isn't actually a *global-variable* there is a ``fill-column`` variable for each buffer.
 
-This chapter will look at how that sort of local scope is implemented in eLisp.
+This chapter will look at how that sort of local scope is implemented in Elisp.
 
 ------------
 Global Scope
 ------------
 
-Lets create a variable with *global scope*. Edit the file ``omar-menu.el`` in ``./emacs.d/omars-dir/``
+Let's create a variable with *global scope*. Edit the file ``omar-menu.el`` in ``./emacs.d/omars-dir/``
 
 Add the line:
 
