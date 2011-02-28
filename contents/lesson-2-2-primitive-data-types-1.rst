@@ -220,4 +220,4 @@ What do the following functions do:
 * ``ceiling``
 * ``floor``
 
-.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/Lisp-Data-Types.html#Lisp-Data-Types
+.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Lisp-Data-Types.html#Lisp-Data-Types

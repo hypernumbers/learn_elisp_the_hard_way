@@ -147,5 +147,5 @@ Write a function with multiple line documentation.
 The *required*, *optional* and *rest* clauses must be specified in that order. Can you work out why? 
 
 
-.. _Functions: http://www.gnu.org/software/emacs/Elisp/html_node/Functions.html#Functions
+.. _Functions: http://www.gnu.org/software/emacs/elisp/html_node/Functions.html#Functions
 

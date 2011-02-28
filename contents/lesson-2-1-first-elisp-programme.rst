@@ -91,4 +91,4 @@ What do you think these symbols represent?
 | ``-1.0e+INF``
 | ``0.0e+NaN`` or ``-0.0e+NaN``
 
-.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/Numbers.html#Numbers
+.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Numbers.html#Numbers

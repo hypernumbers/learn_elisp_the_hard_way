@@ -99,4 +99,4 @@ Additional Reading
 
 There is a slightly more to loading code in Elisp which is described in the `Loading Code`_ section of the Elisp Reference Manual.
 
-.. _Loading Code: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/How-Programs-Do-Loading.html#How-Programs-Do-Loading
+.. _Loading Code: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/How-Programs-Do-Loading.html#How-Programs-Do-Loading

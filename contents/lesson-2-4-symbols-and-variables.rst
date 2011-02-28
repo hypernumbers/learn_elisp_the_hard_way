@@ -168,6 +168,6 @@ However if we now evaluate the value of ``hotdog`` you will see that it is ``(:q
 
 What happens if you try and set the property list of an undefined symbol?
 
-.. _Symbols: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/Symbol-Components.html#Symbol-Components
+.. _Symbols: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/Symbol-Components.html#Symbol-Components
 
-.. _Symbol Properties: http://www.gnu.org/software/emacs/Elisp/html_node/Symbol-Plists.html#Symbol-Plists
+.. _Symbol Properties: http://www.gnu.org/software/emacs/elisp/html_node/Symbol-Plists.html#Symbol-Plists

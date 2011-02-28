@@ -46,4 +46,4 @@ Extra Activities
 
 Run the menu item *Check Document Strings* in the *Emacs-Lisp* menu - can you work out what does the operator ``provide`` does?
 
-.. _Emacs Manual: http://www.gnu.org/software/emacs/manual/html_node/Elisp/Using-Edebug.html#Using-Edebug
+.. _Emacs Manual: http://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Edebug.html#Using-Edebug

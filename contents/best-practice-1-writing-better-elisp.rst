@@ -43,6 +43,6 @@ Additional Reading
 
 There are more `Coding Conventions`_ for writing Elisp additional and rules about `Key-Binding Conventions`_ in the *Emacs Lisp Reference Manual*.
 
-.. _Coding Conventions: http://www.gnu.org/software/emacs/Elisp/html_node/Coding-Conventions.html#Coding-Conventions
+.. _Coding Conventions: http://www.gnu.org/software/emacs/elisp/html_node/Coding-Conventions.html#Coding-Conventions
 
-.. _Key-Binding Conventions: http://www.gnu.org/s/emacs/manual/html_node/Elisp/Key-Binding-Conventions.html#Key-Binding-Conventions
+.. _Key-Binding Conventions: http://www.gnu.org/s/emacs/manual/html_node/elisp/Key-Binding-Conventions.html#Key-Binding-Conventions

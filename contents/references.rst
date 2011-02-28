@@ -13,6 +13,6 @@ Where appropriate this book will refer you to these works for further reading.
 
 .. _An Introduction To Programming In Elisp: http://www.gnu.org/software/emacs/emacs-lisp-intro/
 
-.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/Elisp/index.html#Top
+.. _GNU Emacs Lisp Reference Manual: http://www.gnu.org/software/emacs/emacs-lisp-intro/elisp/index.html#Top
 
 .. _Writing GNU Emacs Extensions: http://astore.amazon.com/hypernumbersc-20/detail/1565922611
