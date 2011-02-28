@@ -8,3 +8,4 @@ Thanks to the following for their corrections:
 * Kevin R Barnes
 * Luke Plant
 * Rafe Kettler
+* Yuanxuan Wang
