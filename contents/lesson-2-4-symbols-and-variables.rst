@@ -41,7 +41,7 @@ You can evaluate Symbols similarly
 :You Type: ``fill-column``
 :Result: ``70``
 
-(It might not be ``70`` - but it probably will be). ``fill-column`` is a variable in Elisp with global scope. Later on we will see how this sort of variable will be used and have its value changed.
+(It might not be ``70`` - but it probably will be). At a first glance it might appear that ``fill-column`` is a variable in Elisp with global scope - turn out it is a bit more subtle that that as will become apparent in Lesson 5-3. Later on we will see how this sort of variable will be used and have its value changed.
 
 Variables don't just exist with default values. If you try and use a random symbol in an expression it will fail.
 
