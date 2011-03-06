@@ -39,6 +39,7 @@ Learn Elisp For Emacs
    contents/lesson-2-3-lists-at-last
    contents/lesson-2-4-symbols-and-variables
    contents/lesson-2-5-arrays-and-sequences
+   contents/elisp-is-a-lisp
 
 3 - eLisp Scripts
 =================
@@ -71,3 +72,4 @@ Learn Elisp For Emacs
    contents/lesson-5-1-elisp-in-files
    contents/lesson-5-2-working-with-buffers-1
    contents/lesson-5-3-scope-of-variables-set-setq-let-etc
+
