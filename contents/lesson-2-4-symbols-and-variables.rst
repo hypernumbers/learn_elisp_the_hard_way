@@ -10,11 +10,12 @@ Symbols Overview
 
 Before you can start building functions we need to understand what symbols are. We have seen expressions like ``(concat "blah" "bleh")``. In that expression ``concat`` is a symbol - a symbol whose value is a function or an operator.
 
-Symbols can be three different things:
+Symbols can contain different things:
  
 * operators or functions
 * data values
 * property lists
+* the print name of the symbol
 
 Some symbols are also the so-called *constant variables* - they evaluate to themselves (their data value is their name) and they cannot have their datavalue set to anything else.
 
