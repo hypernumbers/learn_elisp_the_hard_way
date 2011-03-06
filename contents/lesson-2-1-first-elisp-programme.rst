@@ -6,7 +6,7 @@ Lesson 2-1 - First Elisp Programme
 Let's Get Started
 -----------------
 
-This lesson will show you how to execute your first Elisp programme.
+This lesson will show you how to execute your first Elisa programme.
 
 * start Emacs 
 * go to the scratch buffer by using the menu `Buffers -> \*scratch\*`
@@ -33,7 +33,7 @@ Now put the cursor in the **middle** of the expression - that is to say between 
 
 :Result: In the window nothing will change. The result of the expression is now put in the *minibuffer* ``3.0``
 
-The way in which you evaluate the expression determines where the output goes. Also notice that the previous examples used integers like ``1`` and ``2`` and returned an integer value. This expression uses floating point numbers like ``1.0`` and returns a float as the result.
+It seems as if the way in which you evaluate the expression determines where the output goes - that is a bit of a simplification. See the *Advanced* sub-section for a deeper discussion. Also notice that the previous examples used integers like ``1`` and ``2`` and returned an integer value. This expression uses floating point numbers like ``1.0`` and returns a float as the result.
 
 :You Type: ``(+ 1.0e+3 2.0e-2)``
 
@@ -43,11 +43,11 @@ Now put the cursor at the **end** of the expression and type ``Control-x Control
 
 You can express floating point numbers in scientific notation.
 
----------------------
-What You Have Learned
----------------------
+--------------------
+What You Have Learnt
+--------------------
 
-You have learned how to evaluate a basic Elisp expression (or form) in the scratch buffer. 
+You have learnt how to evaluate a basic Elisp expression (or form) in the scratch buffer. 
 
 **In future lessons you will not be told how to evaluate an expression - be sure to remember the key sequences to do it.**
 
@@ -56,6 +56,20 @@ Additional Reading
 ------------------
 
 There is a section on data types in the `GNU Emacs Lisp Reference Manual`_.
+
+--------
+Advanced
+--------
+
+Elisp, like all the Lisp family, is a functional language. In functional languages there is a strict differences between a pure function and a function which has side effects.
+
+A pure function is one which takes some parameters and returns a value - the same input parameters reliably returning the same value.
+
+A function with side-effects interacts with the outside world: it writes to a file, or it sets a global variable. Sometimes it lets the outside world in - for instance a function that returns a random number.
+
+In this section we talk about evaluating expression and them returning values to the \*scratch\* buffer or the modeline. In fact, we evaluate a function which evaluates an expression and then, as a side effect, writes the return value to \*scratch\* or the modeline.
+
+This might seem an esoteric distinction now, but it is important and will become even more later on.
 
 ----------------
 Extra Activities
