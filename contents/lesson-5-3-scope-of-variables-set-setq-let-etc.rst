@@ -1,8 +1,57 @@
-====================================================
-Lesson 5-3 - Scope Of Variables (set, setq, let etc)
-====================================================
+==========================================================
+Lesson 5-3 - Scope Of Variables (set, setq, let, let* etc)
+==========================================================
 
-We have seen that Elisp has some variables that *appear* global in scope. We looked at the variable ``fill-column`` in lesson 2-4 and it appeared to one such.
+Introduction
+------------
+
+Scope is an important concept in programming. When is the variable 'X' this 'X' and not that 'X', from where does 'X' gets its value, how is 'X' changed.
+
+ELisp has 4 different types of scope:
+
+* global scope
+* local scope
+* buffer-local scope
+* terminal-local scope
+
+The type of scope that Elisp implements is *dynamic* scope. The majority of Lisp dialects implement dynamic scope, but they predominately use a different type of scope called *lexical* scope.
+
+A version of lexical scope is available in Elisp by using a package called 'cl'. This will not be discussed in this book.
+
+TODO - add a section on dynamic scope in Elisp versus lexical scope in other Lisps
+
+------------
+Global Scope
+------------
+
+Let's create a variable with *global scope*. Edit the file ``omar-menu.el`` in ``./emacs.d/omars-dir/``
+
+Add the line:
+
+::
+
+ (setq omars-kills 123)
+
+and then use the menu *Emacs-Lisp -> Evaluate Buffer* to execute that file again.
+
+If you now go to *\*scratch\** and evaluate the variable ``omars-kills`` in it you will see ``123``.
+
+The *global variable* ``omars-kills`` is available to any line of any function in the programme.
+
+This is what we techies call **A Bad Thing**, or to put it another way **A Really Bad Thing (TM) (C) (R)**.
+
+At least in ELisp you have to explicity make a symbol have global scope - unlike Javascript where you can make a global scope variable by accident.
+
+------------------------------------
+The Dastardly Nature Of Global Scope
+------------------------------------
+
+
+
+Buffer-Local Variables
+----------------------
+
+We have seen that Elisp has some variables that *appear* global in scope. We looked at the variable ``fill-column`` in lesson 2-4 and it appeared to be one such.
 
 If we evaluate ``fill-column`` in *\*scratch\** we get the value:
 
@@ -34,30 +83,6 @@ The thing that should get your eyebrows raised is the phrase *buffer-local*. Wha
 
 This chapter will look at how that sort of local scope is implemented in Elisp.
 
-------------
-Global Scope
-------------
-
-Let's create a variable with *global scope*. Edit the file ``omar-menu.el`` in ``./emacs.d/omars-dir/``
-
-Add the line:
-
-::
-
- (setq omars-kills 123)
-
-and then use the menu *Emacs-Lisp -> Evaluate Buffer* to execute that file again.
-
-If you now go to *\*scratch\** and evaluate the variable ``omars-kills`` in it you will see ``123``.
-
-The *global variable* ``omars-kills`` is available to any line of any function in the programme.
-
-This is what we techies call **A Bad Thing**, or to put it another way **A Really Bad Thing (TM) (C) (R)**. 
-
-------------------------------------
-The Dastardly Nature Of Global Scope
-------------------------------------
-
 ---------------------
 What You Have Learned
 ---------------------
@@ -66,8 +91,11 @@ What You Have Learned
 Additional Reading
 ------------------
 
+Richard Stallman laid out the rationale for dynamic binding in a `paper`_ he wrote for the ACM Conference on Text Processing.
+
 ----------------
 Extra Activities
 ----------------
 
 
+-- paper: http://www.gnu.org/software/emacs/emacs-paper.html#SEC15
