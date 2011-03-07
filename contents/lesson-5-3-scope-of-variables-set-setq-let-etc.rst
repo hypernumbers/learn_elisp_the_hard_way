@@ -98,4 +98,4 @@ Extra Activities
 ----------------
 
 
--- paper: http://www.gnu.org/software/emacs/emacs-paper.html#SEC15
+.. _paper: http://www.gnu.org/software/emacs/emacs-paper.html#SEC15
