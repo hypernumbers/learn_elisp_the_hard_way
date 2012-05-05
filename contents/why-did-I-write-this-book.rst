@@ -20,7 +20,7 @@ By writing this book I hope to be able to write Elisp to configure and extend Em
 Why Choose This Format?
 -----------------------
 
-I have chosen to use a format based on *Learn X The Hard Way*. That format is specifically aimed at writing books for non-programmers. My target audience is programmers with no functional programming experiences. Funtional Programming Languages in general (and Lisp in particular) are far enough from Object Orientated or Procedural languages that learning then is like starting to programme again - so the *beginners* format is quite appropriate.
+I have chosen to use a format based on *Learn X The Hard Way*. That format is specifically aimed at writing books for non-programmers. My target audience is programmers with no functional programming experiences. Funtional Programming Languages in general (and Lisp in particular) are far enough from Object Orientated or Procedural languages that learning them is like starting to programme again - so the *beginners* format is quite appropriate.
 
 I have not called the book *Learn Elisp The Hard Way* because this slightly hybrid formula would confuse that core brand.
 
