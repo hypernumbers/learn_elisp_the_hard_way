@@ -6,7 +6,7 @@ Why Did I Write This Book?
 Why Elisp?
 ----------
 
-I am writing this book to lean Elisp myself. I use Emacs every day because it is the IDE of choice for Erlang and I am an Erlang programmer.
+I am writing this book to learn Elisp myself. I use Emacs every day because it is the IDE of choice for Erlang and I am an Erlang programmer.
 
 My relationship with Emacs is that of Simson Garfinkel, Daniel Weise and Steven Strassmann to `Unix`_ - I genuinely loathe it.
 
