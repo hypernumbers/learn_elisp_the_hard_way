@@ -6,7 +6,7 @@ Why Did I Write This Book?
 Why Elisp?
 ----------
 
-I am writing this book to lean Elisp myself. I use Emacs every day because it is the IDE of choice for Erlang and I am an Erlang programmer.
+I am writing this book to learn Elisp myself. I use Emacs every day because it is the IDE of choice for Erlang and I am an Erlang programmer.
 
 My relationship with Emacs is that of Simson Garfinkel, Daniel Weise and Steven Strassmann to `Unix`_ - I genuinely loathe it.
 
@@ -20,7 +20,7 @@ By writing this book I hope to be able to write Elisp to configure and extend Em
 Why Choose This Format?
 -----------------------
 
-I have chosen to use a format based on *Learn X The Hard Way*. That format is specifically aimed at writing books for non-programmers. My target audience is programmers with no functional programming experiences. Funtional Programming Languages in general (and Lisp in particular) are far enough from Object Orientated or Procedural languages that learning then is like starting to programme again - so the *beginners* format is quite appropriate.
+I have chosen to use a format based on *Learn X The Hard Way*. That format is specifically aimed at writing books for non-programmers. My target audience is programmers with no functional programming experiences. Funtional Programming Languages in general (and Lisp in particular) are far enough from Object Orientated or Procedural languages that learning them is like starting to programme again - so the *beginners* format is quite appropriate.
 
 I have not called the book *Learn Elisp The Hard Way* because this slightly hybrid formula would confuse that core brand.
 
