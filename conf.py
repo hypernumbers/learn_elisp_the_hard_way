@@ -151,7 +151,9 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-html_sidebars = {'index' : 'comments.html'}
+html_sidebars = {
+    #'index' : 'comments.html',   ## removed for compatibility with Sphinx 1.
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
